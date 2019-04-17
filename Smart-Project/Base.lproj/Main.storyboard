@@ -9,11 +9,6 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="B Mitra.ttf">
-            <string>BMitra</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Profile-->
         <scene sceneID="TGz-oH-UKS">
@@ -27,29 +22,145 @@
                                 <rect key="frame" x="114" y="28" width="93" height="102"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="امید توانایی" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nu-pO-pQt">
-                                <rect key="frame" x="126" y="138" width="69" height="22"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="22"/>
+                                <rect key="frame" x="112" y="138" width="97" height="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="srl-Vw-DWw">
                                 <rect key="frame" x="114" y="115" width="28" height="15"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تست های انجام شده:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsT-di-sOg">
+                                <rect key="frame" x="114" y="188" width="190" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="برآیند شخصیتی:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLl-IC-dz5">
+                                <rect key="frame" x="176" y="346" width="128" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="توانایی کار گروهی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHR-cP-43T">
+                                <rect key="frame" x="193" y="382" width="111" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NZs-d3-VHb">
+                                <rect key="frame" x="16" y="223" width="85" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IQ Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZv-YX-wqa">
+                                        <rect key="frame" x="0.0" y="0.0" width="57" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MMPI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgU-fd-W0G">
+                                        <rect key="frame" x="0.0" y="31.5" width="49" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DISC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEs-5P-Qct">
+                                        <rect key="frame" x="0.0" y="63" width="40.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team Role" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgw-Xw-FZU">
+                                        <rect key="frame" x="0.0" y="94.5" width="85" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="YvS-Oq-Uqv">
+                                <rect key="frame" x="114" y="223" width="28" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="mIO-AJ-22Q">
+                                <rect key="frame" x="114" y="254" width="28" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="error" translatesAutoresizingMaskIntoConstraints="NO" id="MSg-9U-sqW">
+                                <rect key="frame" x="114" y="284" width="28" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="Fg2-ZY-qts">
+                                <rect key="frame" x="114" y="315" width="28" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="oq8-lD-fw0">
+                                <rect key="frame" x="145" y="382" width="22" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="nHB-q0-J2R">
+                                <rect key="frame" x="145" y="404" width="22" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="GHT-nQ-mTX">
+                                <rect key="frame" x="145" y="426" width="22" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="37I-e7-hTW">
+                                <rect key="frame" x="125" y="382" width="22" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="1lq-CB-IDL">
+                                <rect key="frame" x="104" y="382" width="22" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ضریب هوشی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05F-mv-gvL">
+                                <rect key="frame" x="222" y="404" width="82" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="افسردگی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7i-u4-MJ1">
+                                <rect key="frame" x="249" y="426" width="55" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="rcr-vR-QhQ">
+                                <rect key="frame" x="124" y="404" width="22" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="mQH-mh-4BD">
+                                <rect key="frame" x="104" y="404" width="22" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="dYG-ig-gyc">
+                                <rect key="frame" x="82" y="404" width="22" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6nu-pO-pQt" firstAttribute="top" secondItem="srl-Vw-DWw" secondAttribute="bottom" constant="8" id="0Ml-rD-cBb"/>
+                            <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="rsT-di-sOg" secondAttribute="trailing" constant="16" id="9iB-C0-wSa"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="Wbz-K8-P7q" secondAttribute="trailing" constant="113" id="Eqj-zB-oTZ"/>
                             <constraint firstItem="srl-Vw-DWw" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="114" id="GCD-o8-qtV"/>
+                            <constraint firstItem="rsT-di-sOg" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="114" id="T81-bE-isH"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="bottom" secondItem="6nu-pO-pQt" secondAttribute="bottom" constant="359" id="WOe-6U-6fk"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="srl-Vw-DWw" secondAttribute="trailing" constant="178" id="X30-Kh-T1C"/>
-                            <constraint firstItem="6nu-pO-pQt" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="126" id="Z2i-KH-65O"/>
+                            <constraint firstItem="rsT-di-sOg" firstAttribute="top" secondItem="6nu-pO-pQt" secondAttribute="bottom" constant="28" id="a3Y-n9-EpE"/>
+                            <constraint firstItem="v43-eG-IMX" firstAttribute="bottom" secondItem="rsT-di-sOg" secondAttribute="bottom" constant="311" id="bBz-vH-Vvh"/>
+                            <constraint firstItem="6nu-pO-pQt" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="112" id="cfS-V0-ceb"/>
                             <constraint firstItem="Wbz-K8-P7q" firstAttribute="top" secondItem="v43-eG-IMX" secondAttribute="top" constant="8" id="fZC-ar-jO6"/>
                             <constraint firstItem="6nu-pO-pQt" firstAttribute="top" secondItem="Wbz-K8-P7q" secondAttribute="bottom" constant="8" id="gVr-Ut-NKd"/>
                             <constraint firstItem="srl-Vw-DWw" firstAttribute="top" secondItem="v43-eG-IMX" secondAttribute="top" constant="95" id="mev-65-3fx"/>
                             <constraint firstItem="Wbz-K8-P7q" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="114" id="o21-pO-UfA"/>
-                            <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="6nu-pO-pQt" secondAttribute="trailing" constant="125" id="v5e-0M-Dyh"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="bottom" secondItem="Wbz-K8-P7q" secondAttribute="bottom" constant="389" id="wvG-aP-4RT"/>
+                            <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="6nu-pO-pQt" secondAttribute="trailing" constant="111" id="zWH-xn-7G6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="v43-eG-IMX"/>
                     </view>
@@ -126,7 +237,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="checked" width="341.33334350585938" height="341.33334350585938"/>
+        <image name="error" width="40" height="40"/>
         <image name="man" width="405.09890747070312" height="405.09890747070312"/>
         <image name="smile" width="478.75323486328125" height="478.75323486328125"/>
+        <image name="star" width="43.115791320800781" height="43.115791320800781"/>
     </resources>
 </document>
