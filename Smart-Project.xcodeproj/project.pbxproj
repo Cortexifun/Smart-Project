@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60861D7C2267418600D0495A /* B Mitra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60861D7B2267417D00D0495A /* B Mitra.ttf */; };
+		60861D7E22675A1400D0495A /* TabBarExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60861D7D22675A1400D0495A /* TabBarExt.swift */; };
+		60861D8322675F0A00D0495A /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60861D8222675F0A00D0495A /* BorderButton.swift */; };
 		60AF37FC2263AB3D00B718E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF37FB2263AB3D00B718E3 /* AppDelegate.swift */; };
 		60AF37FE2263AB3D00B718E3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF37FD2263AB3D00B718E3 /* HomeVC.swift */; };
 		60AF38012263AB3D00B718E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AF37FF2263AB3D00B718E3 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60861D7B2267417D00D0495A /* B Mitra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B Mitra.ttf"; sourceTree = "<group>"; };
+		60861D7D22675A1400D0495A /* TabBarExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExt.swift; sourceTree = "<group>"; };
+		60861D8222675F0A00D0495A /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		60AF37F82263AB3D00B718E3 /* Smart-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AF37FB2263AB3D00B718E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60AF37FD2263AB3D00B718E3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -39,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60861D7F22675E7300D0495A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60861D7D22675A1400D0495A /* TabBarExt.swift */,
+				60861D8222675F0A00D0495A /* BorderButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		60AF37EF2263AB3D00B718E3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +73,7 @@
 		60AF37FA2263AB3D00B718E3 /* Smart-Project */ = {
 			isa = PBXGroup;
 			children = (
+				60861D7F22675E7300D0495A /* View */,
 				60AF380F2263BD6A00B718E3 /* Controller */,
 				60AF37FB2263AB3D00B718E3 /* AppDelegate.swift */,
 				60AF37FF2263AB3D00B718E3 /* Main.storyboard */,
@@ -82,6 +98,7 @@
 		60AF38102263BEC000B718E3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				60861D7B2267417D00D0495A /* B Mitra.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -144,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60861D7C2267418600D0495A /* B Mitra.ttf in Resources */,
 				60AF38062263AB3E00B718E3 /* LaunchScreen.storyboard in Resources */,
 				60AF38032263AB3E00B718E3 /* Assets.xcassets in Resources */,
 				60AF38012263AB3D00B718E3 /* Main.storyboard in Resources */,
@@ -161,6 +179,8 @@
 				60AF37FE2263AB3D00B718E3 /* HomeVC.swift in Sources */,
 				60AF380E2263BD4D00B718E3 /* SecondVC.swift in Sources */,
 				60AF37FC2263AB3D00B718E3 /* AppDelegate.swift in Sources */,
+				60861D7E22675A1400D0495A /* TabBarExt.swift in Sources */,
+				60861D8322675F0A00D0495A /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

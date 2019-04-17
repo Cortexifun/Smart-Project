@@ -9,13 +9,18 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="B Mitra.ttf">
+            <string>BMitra</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--Profile-->
+        <!--View Controller-->
         <scene sceneID="TGz-oH-UKS">
             <objects>
                 <viewController id="uXW-mP-7C7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="19M-dg-xnT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man" translatesAutoresizingMaskIntoConstraints="NO" id="Wbz-K8-P7q">
@@ -27,190 +32,448 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="srl-Vw-DWw">
-                                <rect key="frame" x="114" y="115" width="28" height="15"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تست های انجام شده:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsT-di-sOg">
-                                <rect key="frame" x="114" y="188" width="190" height="20"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="درونگرا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zq7-IO-qTM">
+                                <rect key="frame" x="184" y="209" width="46" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="اجتماعی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ec-f8-A1Q">
+                                <rect key="frame" x="137" y="209" width="46" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="غالب" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEO-QP-9Ra">
+                                <rect key="frame" x="90" y="209" width="46" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="شهودی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3H-sf-prF">
+                                <rect key="frame" x="43" y="209" width="46" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تست های انجام شده:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsT-di-sOg">
+                                <rect key="frame" x="180" y="373" width="130" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="برآیند شخصیتی:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLl-IC-dz5">
-                                <rect key="frame" x="176" y="346" width="128" height="22"/>
+                                <rect key="frame" x="182" y="264" width="128" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="توانایی کار گروهی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHR-cP-43T">
-                                <rect key="frame" x="193" y="382" width="111" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crying" translatesAutoresizingMaskIntoConstraints="NO" id="Jip-YB-Mjk">
+                                <rect key="frame" x="16" y="239" width="18" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NZs-d3-VHb">
-                                <rect key="frame" x="16" y="223" width="85" height="118"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="e7l-hu-bde">
+                                <rect key="frame" x="191" y="239" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="bottom" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-HZ-kBW">
+                                <rect key="frame" x="243" y="291" width="67" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IQ Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZv-YX-wqa">
-                                        <rect key="frame" x="0.0" y="0.0" width="57" height="23.5"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="هوش هیجانی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHR-cP-43T">
+                                        <rect key="frame" x="1" y="0.0" width="66" height="17"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MMPI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgU-fd-W0G">
-                                        <rect key="frame" x="0.0" y="31.5" width="49" height="23.5"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="احساس شادی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05F-mv-gvL">
+                                        <rect key="frame" x="0.0" y="19" width="67" height="17"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DISC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEs-5P-Qct">
-                                        <rect key="frame" x="0.0" y="63" width="40.5" height="23.5"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اضطراب" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7i-u4-MJ1">
+                                        <rect key="frame" x="27.5" y="38" width="39.5" height="17"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team Role" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgw-Xw-FZU">
-                                        <rect key="frame" x="0.0" y="94.5" width="85" height="23.5"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="همکاری" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wl2-IY-0bs">
+                                        <rect key="frame" x="27" y="57" width="40" height="17"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="YvS-Oq-Uqv">
-                                <rect key="frame" x="114" y="223" width="28" height="26"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dld-7w-km5">
+                                <rect key="frame" x="287" y="28" width="23" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="settings"/>
+                            </button>
+                            <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3L-pw-qP4" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
+                                <rect key="frame" x="10" y="168" width="300" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.027450980392156862" green="0.27058823529411763" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="21"/>
+                                <state key="normal" title="دنبال کردن">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="S9Z-Ue-FGg">
+                                <rect key="frame" x="217" y="294" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="mIO-AJ-22Q">
-                                <rect key="frame" x="114" y="254" width="28" height="26"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="8Ml-zR-rLK">
+                                <rect key="frame" x="204" y="294" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="error" translatesAutoresizingMaskIntoConstraints="NO" id="MSg-9U-sqW">
-                                <rect key="frame" x="114" y="284" width="28" height="26"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="XNg-g3-eRI">
+                                <rect key="frame" x="191" y="294" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="Fg2-ZY-qts">
-                                <rect key="frame" x="114" y="315" width="28" height="26"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="XdL-qp-Yg7">
+                                <rect key="frame" x="217" y="314" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="oq8-lD-fw0">
-                                <rect key="frame" x="145" y="382" width="22" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="qqq-Ud-CRZ">
+                                <rect key="frame" x="204" y="314" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="nHB-q0-J2R">
-                                <rect key="frame" x="145" y="404" width="22" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="5Q8-Fr-Kmo">
+                                <rect key="frame" x="191" y="314" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="GHT-nQ-mTX">
-                                <rect key="frame" x="145" y="426" width="22" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="GSY-nJ-BPM">
+                                <rect key="frame" x="217" y="332" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="37I-e7-hTW">
-                                <rect key="frame" x="125" y="382" width="22" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="eha-OK-j9S">
+                                <rect key="frame" x="217" y="350" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="1lq-CB-IDL">
-                                <rect key="frame" x="104" y="382" width="22" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="OIy-o2-Wtw">
+                                <rect key="frame" x="204" y="350" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ضریب هوشی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05F-mv-gvL">
-                                <rect key="frame" x="222" y="404" width="82" height="20"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="bottom" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Ajb-TN-Pal">
+                                <rect key="frame" x="77" y="291" width="86.5" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="توانایی کار گروهی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alM-Ct-hm6">
+                                        <rect key="frame" x="0.0" y="0.0" width="86.5" height="17"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ضریب هوشی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crP-Tx-c8N">
+                                        <rect key="frame" x="22" y="19" width="64.5" height="17"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="شادابی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsp-B5-Qcd">
+                                        <rect key="frame" x="55" y="38" width="31.5" height="17"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="فعالیت فیزیکی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zs9-WK-KzA">
+                                        <rect key="frame" x="17.5" y="57" width="69" height="17"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="e90-cn-idA">
+                                <rect key="frame" x="56" y="294" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="nXl-Q7-Q8x">
+                                <rect key="frame" x="43" y="294" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="bI4-Md-Dr8">
+                                <rect key="frame" x="30" y="294" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="Ewl-8P-goT">
+                                <rect key="frame" x="56" y="314" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="KPC-s7-ca3">
+                                <rect key="frame" x="43" y="314" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="FLK-Cn-jtC">
+                                <rect key="frame" x="30" y="314" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="WGn-WR-noI">
+                                <rect key="frame" x="17" y="314" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="u9Q-HK-SdQ">
+                                <rect key="frame" x="56" y="332" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="gdm-hh-vHr">
+                                <rect key="frame" x="43" y="332" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="9Jd-Ie-0Ql">
+                                <rect key="frame" x="56" y="350" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="K9B-7j-pSP">
+                                <rect key="frame" x="43" y="350" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="XSM-cO-Kfs">
+                                <rect key="frame" x="191" y="350" width="13" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="سبک شخصیتی: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rO-Et-zQS">
+                                <rect key="frame" x="233" y="203" width="77" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="افسردگی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7i-u4-MJ1">
-                                <rect key="frame" x="249" y="426" width="55" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="برآيند مود هفته اخیر: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iax-Ij-1F5">
+                                <rect key="frame" x="214" y="232" width="96" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="rcr-vR-QhQ">
-                                <rect key="frame" x="124" y="404" width="22" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="bAY-RQ-tlY">
+                                <rect key="frame" x="178" y="294" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="mQH-mh-4BD">
-                                <rect key="frame" x="104" y="404" width="22" height="20"/>
+                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="8" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="pKs-sZ-FCn">
+                                <rect key="frame" x="35" y="233" width="153" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="minimumTrackTintColor" red="0.41414386034011841" green="0.75930929183959961" blue="0.34814357757568359" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="0.84342664480209351" green="0.35462939739227295" blue="0.28959202766418457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMc-OQ-g4p">
+                                <rect key="frame" x="10" y="25" width="26" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="direct"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="NZs-d3-VHb">
+                                <rect key="frame" x="23" y="406" width="59" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IQ Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZv-YX-wqa">
+                                        <rect key="frame" x="0.0" y="0.0" width="38.5" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MMPI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgU-fd-W0G">
+                                        <rect key="frame" x="0.0" y="18.5" width="34" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DISC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEs-5P-Qct">
+                                        <rect key="frame" x="0.0" y="37" width="29" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team Role" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgw-Xw-FZU">
+                                        <rect key="frame" x="0.0" y="55.5" width="59" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="Vcp-Kj-oE6">
+                                <rect key="frame" x="84" y="405" width="18" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="dYG-ig-gyc">
-                                <rect key="frame" x="82" y="404" width="22" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="uym-LZ-D7K">
+                                <rect key="frame" x="84" y="423" width="18" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="error" translatesAutoresizingMaskIntoConstraints="NO" id="e9n-Wf-Vtt">
+                                <rect key="frame" x="84" y="442" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="mjt-vm-nPu">
+                                <rect key="frame" x="84" y="461" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="error" translatesAutoresizingMaskIntoConstraints="NO" id="Afz-kn-DvF">
+                                <rect key="frame" x="186" y="404" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="obp-S5-bUR">
+                                <rect key="frame" x="186" y="422" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="pqo-m4-eu3">
+                                <rect key="frame" x="186" y="441" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="Y7T-c0-c59">
+                                <rect key="frame" x="186" y="460" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="XJn-Jl-IbQ">
+                                <rect key="frame" x="280" y="402" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="Cnp-BS-LzC">
+                                <rect key="frame" x="280" y="420" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="error" translatesAutoresizingMaskIntoConstraints="NO" id="xIr-BS-cO2">
+                                <rect key="frame" x="280" y="439" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="error" translatesAutoresizingMaskIntoConstraints="NO" id="SDr-ci-u52">
+                                <rect key="frame" x="280" y="458" width="18" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="KLd-Yc-tTY">
+                                <rect key="frame" x="110" y="407" width="73" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MBTI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwD-sO-ZaF">
+                                        <rect key="frame" x="0.0" y="0.0" width="30.5" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BarOn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5a-Bw-nix">
+                                        <rect key="frame" x="0.0" y="18.5" width="37" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Career Anchors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxK-63-qtI">
+                                        <rect key="frame" x="0.0" y="37" width="73" height="13.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raven" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gM1-5k-n82">
+                                        <rect key="frame" x="0.0" y="53.5" width="34.5" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="xDO-NI-tOf">
+                                <rect key="frame" x="212" y="404" width="63.5" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DMSI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf8-kj-H8E">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neo Pir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCW-gi-RGx">
+                                        <rect key="frame" x="0.0" y="18.5" width="43" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cog. Abilities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUn-9g-2ru">
+                                        <rect key="frame" x="0.0" y="37" width="63.5" height="13.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CSI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8wU-of-Weo">
+                                        <rect key="frame" x="0.0" y="53.5" width="19" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.80392156862745101" green="1" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="6nu-pO-pQt" firstAttribute="top" secondItem="srl-Vw-DWw" secondAttribute="bottom" constant="8" id="0Ml-rD-cBb"/>
-                            <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="rsT-di-sOg" secondAttribute="trailing" constant="16" id="9iB-C0-wSa"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="Wbz-K8-P7q" secondAttribute="trailing" constant="113" id="Eqj-zB-oTZ"/>
-                            <constraint firstItem="srl-Vw-DWw" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="114" id="GCD-o8-qtV"/>
-                            <constraint firstItem="rsT-di-sOg" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="114" id="T81-bE-isH"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="bottom" secondItem="6nu-pO-pQt" secondAttribute="bottom" constant="359" id="WOe-6U-6fk"/>
-                            <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="srl-Vw-DWw" secondAttribute="trailing" constant="178" id="X30-Kh-T1C"/>
-                            <constraint firstItem="rsT-di-sOg" firstAttribute="top" secondItem="6nu-pO-pQt" secondAttribute="bottom" constant="28" id="a3Y-n9-EpE"/>
-                            <constraint firstItem="v43-eG-IMX" firstAttribute="bottom" secondItem="rsT-di-sOg" secondAttribute="bottom" constant="311" id="bBz-vH-Vvh"/>
                             <constraint firstItem="6nu-pO-pQt" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="112" id="cfS-V0-ceb"/>
                             <constraint firstItem="Wbz-K8-P7q" firstAttribute="top" secondItem="v43-eG-IMX" secondAttribute="top" constant="8" id="fZC-ar-jO6"/>
                             <constraint firstItem="6nu-pO-pQt" firstAttribute="top" secondItem="Wbz-K8-P7q" secondAttribute="bottom" constant="8" id="gVr-Ut-NKd"/>
-                            <constraint firstItem="srl-Vw-DWw" firstAttribute="top" secondItem="v43-eG-IMX" secondAttribute="top" constant="95" id="mev-65-3fx"/>
                             <constraint firstItem="Wbz-K8-P7q" firstAttribute="leading" secondItem="v43-eG-IMX" secondAttribute="leading" constant="114" id="o21-pO-UfA"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="bottom" secondItem="Wbz-K8-P7q" secondAttribute="bottom" constant="389" id="wvG-aP-4RT"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="6nu-pO-pQt" secondAttribute="trailing" constant="111" id="zWH-xn-7G6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="v43-eG-IMX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="3nL-4h-1eK"/>
+                    <tabBarItem key="tabBarItem" title="" image="profileTabBar" id="3nL-4h-1eK">
+                        <inset key="landscapeImageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="5" maxX="0.0" maxY="2"/>
+                        <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qmz-hn-Vyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="615" y="673.94366197183103"/>
         </scene>
-        <!--Tests-->
+        <!--View Controller-->
         <scene sceneID="byb-au-gLn">
             <objects>
                 <viewController id="GVQ-mM-Iuq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="paN-Y2-cde">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5uH-Uc-2Tz">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="testsVC" translatesAutoresizingMaskIntoConstraints="NO" id="oOA-uM-Cvi">
+                                <rect key="frame" x="1" y="21" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tableView>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.80392156859999997" green="1" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="GUo-6J-gm4"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tests" id="zrl-Ug-oe0"/>
+                    <tabBarItem key="tabBarItem" title="" image="testTabBar" id="zrl-Ug-oe0">
+                        <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XTg-UL-lmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="615" y="-2.112676056338028"/>
         </scene>
-        <!--Moods Feed-->
+        <!--View Controller-->
         <scene sceneID="9OZ-Km-8VC">
             <objects>
                 <viewController id="uAJ-4I-adS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uu6-gO-1nN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z4Z-ID-szS">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.80392156859999997" green="1" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="SaP-Lc-rlF"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Moods Feed" id="wDt-of-JrI"/>
+                    <tabBarItem key="tabBarItem" title="" image="homeTabbarIcon " id="wDt-of-JrI">
+                        <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -220,10 +483,12 @@
         <scene sceneID="7wN-FJ-kPC">
             <objects>
                 <tabBarController id="nYh-LJ-ZPQ" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g8M-Lh-lxu">
+                    <tabBar key="tabBar" alpha="0.90000000000000002" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="g8M-Lh-lxu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.0" green="0.62352941179999999" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.0" green="0.62352941176470589" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.058823529411764705" green="0.039215686274509803" blue="0.23529411764705882" alpha="0.0" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="uAJ-4I-adS" kind="relationship" relationship="viewControllers" id="mBc-T9-Shx"/>
@@ -238,9 +503,16 @@
     </scenes>
     <resources>
         <image name="checked" width="341.33334350585938" height="341.33334350585938"/>
+        <image name="crying" width="380" height="380"/>
+        <image name="direct" width="409.60000610351562" height="409.60000610351562"/>
         <image name="error" width="40" height="40"/>
+        <image name="happy" width="380" height="380"/>
+        <image name="homeTabbarIcon " width="37.5" height="37.5"/>
         <image name="man" width="405.09890747070312" height="405.09890747070312"/>
-        <image name="smile" width="478.75323486328125" height="478.75323486328125"/>
+        <image name="profileTabBar" width="41.25" height="41.25"/>
+        <image name="settings" width="384" height="384"/>
         <image name="star" width="43.115791320800781" height="43.115791320800781"/>
+        <image name="testTabBar" width="41.25" height="41.25"/>
+        <image name="testsVC" width="339" height="483"/>
     </resources>
 </document>
