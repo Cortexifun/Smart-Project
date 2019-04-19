@@ -262,7 +262,7 @@
                                 <rect key="frame" x="178" y="294" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="8" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="pKs-sZ-FCn">
+                            <slider opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="8" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="pKs-sZ-FCn">
                                 <rect key="frame" x="35" y="233" width="153" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -414,7 +414,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.80392156862745101" green="1" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="trailing" secondItem="Wbz-K8-P7q" secondAttribute="trailing" constant="113" id="Eqj-zB-oTZ"/>
                             <constraint firstItem="v43-eG-IMX" firstAttribute="bottom" secondItem="6nu-pO-pQt" secondAttribute="bottom" constant="359" id="WOe-6U-6fk"/>
@@ -435,7 +435,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qmz-hn-Vyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="615" y="673.94366197183103"/>
+            <point key="canvasLocation" x="615" y="634"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6h3-hk-hpg">
+            <objects>
+                <viewController id="lYz-TF-wdv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4QM-nA-hcT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bDd-1W-wkR"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="flowerTabBar" id="gXn-Ov-gHI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BsT-I9-UN1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="615" y="1293"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="byb-au-gLn">
@@ -444,13 +460,7 @@
                     <view key="view" contentMode="scaleToFill" id="paN-Y2-cde">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="testsVC" translatesAutoresizingMaskIntoConstraints="NO" id="oOA-uM-Cvi">
-                                <rect key="frame" x="1" y="21" width="320" height="454"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.80392156859999997" green="1" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GUo-6J-gm4"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="testTabBar" id="zrl-Ug-oe0">
@@ -459,7 +469,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XTg-UL-lmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="615" y="-2.112676056338028"/>
+            <point key="canvasLocation" x="615" y="-23"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9OZ-Km-8VC">
@@ -468,11 +478,32 @@
                     <view key="view" contentMode="scaleToFill" id="Uu6-gO-1nN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.80392156859999997" green="1" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-11" translatesAutoresizingMaskIntoConstraints="NO" id="dpP-xS-VM8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="امروز حالت چطوره؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5l-5D-iyH">
+                                <rect key="frame" x="49" y="72" width="222" height="55"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dpP-xS-VM8" firstAttribute="bottom" secondItem="SaP-Lc-rlF" secondAttribute="bottom" id="4MA-ry-6UB"/>
+                            <constraint firstItem="SaP-Lc-rlF" firstAttribute="bottom" secondItem="B5l-5D-iyH" secondAttribute="bottom" constant="392" id="Arc-jM-j1j"/>
+                            <constraint firstItem="dpP-xS-VM8" firstAttribute="top" secondItem="Uu6-gO-1nN" secondAttribute="top" id="DZv-py-frj"/>
+                            <constraint firstItem="B5l-5D-iyH" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" constant="49" id="N0w-fz-IYn"/>
+                            <constraint firstItem="dpP-xS-VM8" firstAttribute="trailing" secondItem="SaP-Lc-rlF" secondAttribute="trailing" id="aAW-LC-63e"/>
+                            <constraint firstItem="B5l-5D-iyH" firstAttribute="top" secondItem="SaP-Lc-rlF" secondAttribute="top" constant="52" id="dqy-Zs-Eca"/>
+                            <constraint firstItem="SaP-Lc-rlF" firstAttribute="trailing" secondItem="B5l-5D-iyH" secondAttribute="trailing" constant="49" id="mtx-ou-kJe"/>
+                            <constraint firstItem="dpP-xS-VM8" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" id="u2J-dH-iRe"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="SaP-Lc-rlF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="homeTabbarIcon " id="wDt-of-JrI">
-                        <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="badgeColor" red="0.94509803921568625" green="0.81960784313725488" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -488,12 +519,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.0" green="0.62352941179999999" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.0" green="0.62352941176470589" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="barTintColor" red="0.058823529411764705" green="0.039215686274509803" blue="0.23529411764705882" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.94509803920000002" green="0.81960784310000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="uAJ-4I-adS" kind="relationship" relationship="viewControllers" id="mBc-T9-Shx"/>
                         <segue destination="GVQ-mM-Iuq" kind="relationship" relationship="viewControllers" id="kgz-if-VUF"/>
                         <segue destination="uXW-mP-7C7" kind="relationship" relationship="viewControllers" id="FtP-hB-YRF"/>
+                        <segue destination="lYz-TF-wdv" kind="relationship" relationship="viewControllers" id="YfQ-od-WOF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPY-Ic-Ux2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -502,10 +535,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background-11" width="2700" height="4050"/>
         <image name="checked" width="341.33334350585938" height="341.33334350585938"/>
         <image name="crying" width="380" height="380"/>
         <image name="direct" width="409.60000610351562" height="409.60000610351562"/>
         <image name="error" width="40" height="40"/>
+        <image name="flowerTabBar" width="44" height="44"/>
         <image name="happy" width="380" height="380"/>
         <image name="homeTabbarIcon " width="37.5" height="37.5"/>
         <image name="man" width="405.09890747070312" height="405.09890747070312"/>
@@ -513,6 +548,5 @@
         <image name="settings" width="384" height="384"/>
         <image name="star" width="43.115791320800781" height="43.115791320800781"/>
         <image name="testTabBar" width="41.25" height="41.25"/>
-        <image name="testsVC" width="339" height="483"/>
     </resources>
 </document>
