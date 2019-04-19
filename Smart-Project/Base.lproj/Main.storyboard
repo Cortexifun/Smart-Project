@@ -471,42 +471,124 @@
             </objects>
             <point key="canvasLocation" x="615" y="-23"/>
         </scene>
-        <!--View Controller-->
+        <!--HomeVC-->
         <scene sceneID="9OZ-Km-8VC">
             <objects>
-                <viewController id="uAJ-4I-adS" sceneMemberID="viewController">
+                <viewController id="uAJ-4I-adS" userLabel="HomeVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uu6-gO-1nN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-11" translatesAutoresizingMaskIntoConstraints="NO" id="dpP-xS-VM8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-11" translatesAutoresizingMaskIntoConstraints="NO" id="hJd-NE-5zb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="امروز حالت چطوره؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5l-5D-iyH">
-                                <rect key="frame" x="49" y="72" width="222" height="55"/>
+                                <rect key="frame" x="49" y="115" width="222" height="40"/>
                                 <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999999999999996" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="KA4-HD-csz" customClass="CircularSlider" customModule="HGCircularSlider">
+                                <rect key="frame" x="16" y="178" width="288" height="193"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="عصبانی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bso-Qi-MbW">
+                                        <rect key="frame" x="106" y="45" width="76" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="diskFillColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="diskColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackFillColor">
+                                        <color key="value" red="0.84342664479999996" green="0.35462939739999999" blue="0.28959202769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                        <color key="value" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="backtrackLineWidth">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="trackShadowOffset">
+                                        <point key="value" x="0.0" y="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbLineWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbRadius">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeColor">
+                                        <color key="value" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeHighlightedColor">
+                                        <color key="value" red="0.94509803920000002" green="0.81960784310000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sliderStops:" destination="emn-7W-9Ug" eventType="valueChanged" id="SPX-Ov-3cg"/>
+                                </connections>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="braincircuit" translatesAutoresizingMaskIntoConstraints="NO" id="Ac7-Ck-QEH">
+                                <rect key="frame" x="134" y="31" width="52" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="سلام امید" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZX-EJ-zrL">
+                                <rect key="frame" x="124" y="85" width="72" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="dpP-xS-VM8" firstAttribute="bottom" secondItem="SaP-Lc-rlF" secondAttribute="bottom" id="4MA-ry-6UB"/>
-                            <constraint firstItem="SaP-Lc-rlF" firstAttribute="bottom" secondItem="B5l-5D-iyH" secondAttribute="bottom" constant="392" id="Arc-jM-j1j"/>
-                            <constraint firstItem="dpP-xS-VM8" firstAttribute="top" secondItem="Uu6-gO-1nN" secondAttribute="top" id="DZv-py-frj"/>
+                            <constraint firstItem="SaP-Lc-rlF" firstAttribute="bottom" secondItem="KA4-HD-csz" secondAttribute="bottom" constant="148" id="Bbm-LE-VjU"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="B5l-5D-iyH" secondAttribute="bottom" constant="364" id="HJ1-HY-9gp"/>
+                            <constraint firstItem="KA4-HD-csz" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" constant="16" id="JAT-SP-ZLH"/>
                             <constraint firstItem="B5l-5D-iyH" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" constant="49" id="N0w-fz-IYn"/>
-                            <constraint firstItem="dpP-xS-VM8" firstAttribute="trailing" secondItem="SaP-Lc-rlF" secondAttribute="trailing" id="aAW-LC-63e"/>
-                            <constraint firstItem="B5l-5D-iyH" firstAttribute="top" secondItem="SaP-Lc-rlF" secondAttribute="top" constant="52" id="dqy-Zs-Eca"/>
+                            <constraint firstItem="hJd-NE-5zb" firstAttribute="bottom" secondItem="SaP-Lc-rlF" secondAttribute="bottom" id="PhP-ig-xKb"/>
+                            <constraint firstItem="B5l-5D-iyH" firstAttribute="top" secondItem="SaP-Lc-rlF" secondAttribute="top" constant="95" id="Q3T-uV-0yN"/>
+                            <constraint firstItem="hJd-NE-5zb" firstAttribute="trailing" secondItem="SaP-Lc-rlF" secondAttribute="trailing" id="Qsc-fV-i5p"/>
+                            <constraint firstItem="hJd-NE-5zb" firstAttribute="top" secondItem="Uu6-gO-1nN" secondAttribute="top" id="YhY-7o-554"/>
+                            <constraint firstItem="SaP-Lc-rlF" firstAttribute="trailing" secondItem="KA4-HD-csz" secondAttribute="trailing" constant="16" id="i4v-HJ-uFn"/>
                             <constraint firstItem="SaP-Lc-rlF" firstAttribute="trailing" secondItem="B5l-5D-iyH" secondAttribute="trailing" constant="49" id="mtx-ou-kJe"/>
-                            <constraint firstItem="dpP-xS-VM8" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" id="u2J-dH-iRe"/>
+                            <constraint firstItem="KA4-HD-csz" firstAttribute="top" secondItem="B5l-5D-iyH" secondAttribute="bottom" constant="23" id="qPE-jH-Tog"/>
+                            <constraint firstItem="hJd-NE-5zb" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" id="wkD-h6-tI7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SaP-Lc-rlF"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="backtrackLineWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="trackShadowOffset">
+                                <point key="value" x="0.0" y="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.34814357759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="homeTabbarIcon " id="wDt-of-JrI">
                         <color key="badgeColor" red="0.94509803921568625" green="0.81960784313725488" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="emn-7W-9Ug" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="615" y="-678.16901408450701"/>
         </scene>
@@ -536,6 +618,7 @@
     </scenes>
     <resources>
         <image name="background-11" width="2700" height="4050"/>
+        <image name="braincircuit" width="384" height="384"/>
         <image name="checked" width="341.33334350585938" height="341.33334350585938"/>
         <image name="crying" width="380" height="380"/>
         <image name="direct" width="409.60000610351562" height="409.60000610351562"/>
