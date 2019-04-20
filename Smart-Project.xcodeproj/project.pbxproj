@@ -17,6 +17,7 @@
 		60AF38062263AB3E00B718E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AF38042263AB3E00B718E3 /* LaunchScreen.storyboard */; };
 		60AF380E2263BD4D00B718E3 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF380D2263BD4D00B718E3 /* SecondVC.swift */; };
 		60AF38172263C3AB00B718E3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF38162263C3AB00B718E3 /* ProfileVC.swift */; };
+		985A2A953795497CF007DDCC /* Pods_Smart_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD79A8552E4CB5509152D84 /* Pods_Smart_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,9 @@
 		60AF38072263AB3E00B718E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60AF380D2263BD4D00B718E3 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		60AF38162263C3AB00B718E3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		6FD79A8552E4CB5509152D84 /* Pods_Smart_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F1FB3278EB16F50B942D8D /* Pods-Smart-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart-Project.release.xcconfig"; path = "Target Support Files/Pods-Smart-Project/Pods-Smart-Project.release.xcconfig"; sourceTree = "<group>"; };
+		8E071437CE538B285411AC26 /* Pods-Smart-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart-Project.debug.xcconfig"; path = "Target Support Files/Pods-Smart-Project/Pods-Smart-Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985A2A953795497CF007DDCC /* Pods_Smart_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,8 @@
 			children = (
 				60AF37FA2263AB3D00B718E3 /* Smart-Project */,
 				60AF37F92263AB3D00B718E3 /* Products */,
+				DEBD295EAC31000B2D3209C4 /* Pods */,
+				CC23E678ECC7AB42F27491AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +110,24 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		CC23E678ECC7AB42F27491AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FD79A8552E4CB5509152D84 /* Pods_Smart_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEBD295EAC31000B2D3209C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E071437CE538B285411AC26 /* Pods-Smart-Project.debug.xcconfig */,
+				85F1FB3278EB16F50B942D8D /* Pods-Smart-Project.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60AF380A2263AB3E00B718E3 /* Build configuration list for PBXNativeTarget "Smart-Project" */;
 			buildPhases = (
+				1B2056BD2E40B17749D4E13E /* [CP] Check Pods Manifest.lock */,
 				60AF37F42263AB3D00B718E3 /* Sources */,
 				60AF37F52263AB3D00B718E3 /* Frameworks */,
 				60AF37F62263AB3D00B718E3 /* Resources */,
+				90A677A893FF1EDEFCD4795A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +196,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B2056BD2E40B17749D4E13E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smart-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A677A893FF1EDEFCD4795A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart-Project/Pods-Smart-Project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MSCircularSlider/MSCircularSlider.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSCircularSlider.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smart-Project/Pods-Smart-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		60AF37F42263AB3D00B718E3 /* Sources */ = {
@@ -324,6 +398,7 @@
 		};
 		60AF380B2263AB3E00B718E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E071437CE538B285411AC26 /* Pods-Smart-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +417,7 @@
 		};
 		60AF380C2263AB3E00B718E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F1FB3278EB16F50B942D8D /* Pods-Smart-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

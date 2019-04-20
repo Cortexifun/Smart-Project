@@ -1,0 +1,16 @@
+PODS:
+  - MSCircularSlider (1.2.2)
+
+DEPENDENCIES:
+  - MSCircularSlider
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MSCircularSlider
+
+SPEC CHECKSUMS:
+  MSCircularSlider: 70759318a899279d7923aa0f454f3ba0fe448642
+
+PODFILE CHECKSUM: c9d058bb26cadcef0577d18db29f437b1994e02f
+
+COCOAPODS: 1.6.0

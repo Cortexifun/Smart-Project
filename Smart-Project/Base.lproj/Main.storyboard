@@ -453,15 +453,54 @@
             </objects>
             <point key="canvasLocation" x="615" y="1293"/>
         </scene>
-        <!--View Controller-->
+        <!--SecondVC-->
         <scene sceneID="byb-au-gLn">
             <objects>
-                <viewController id="GVQ-mM-Iuq" sceneMemberID="viewController">
+                <viewController id="GVQ-mM-Iuq" customClass="SecondVC" customModule="Smart_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="paN-Y2-cde">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="msy-pc-dvV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GUo-6J-gm4"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="_minimumValue">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="_maximumValue">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="_currentValue">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="_maximumAngle">
+                                <real key="value" value="180"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="_lineWidth">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="_filledColor">
+                                <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.34814357759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="_unfilledColor">
+                                <color key="value" red="0.84342664479999996" green="0.35462939739999999" blue="0.28959202769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="_rotationAngle">
+                                <real key="value" value="90"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="_handleColor">
+                                <color key="value" red="0.0" green="0.62352941179999999" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="_handleType">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="testTabBar" id="zrl-Ug-oe0">
                         <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -469,12 +508,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XTg-UL-lmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="615" y="-23"/>
+            <point key="canvasLocation" x="615" y="-23.239436619718312"/>
         </scene>
-        <!--View Controller-->
+        <!--HomeVC-->
         <scene sceneID="9OZ-Km-8VC">
             <objects>
-                <viewController id="uAJ-4I-adS" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="uAJ-4I-adS" customClass="HomeVC" customModule="Smart_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uu6-gO-1nN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -482,22 +522,103 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-11" translatesAutoresizingMaskIntoConstraints="NO" id="dpP-xS-VM8">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="امروز حالت چطوره؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5l-5D-iyH">
-                                <rect key="frame" x="49" y="72" width="222" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="از امروزت بگو؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5l-5D-iyH">
+                                <rect key="frame" x="40" y="125" width="222" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circuit" translatesAutoresizingMaskIntoConstraints="NO" id="Dhr-Wv-NRd">
+                                <rect key="frame" x="124" y="41" width="72" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDH-DP-1hI">
+                                <rect key="frame" x="40" y="409" width="248" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.75" contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLC-Mb-59J" customClass="MSGradientCircularSlider" customModule="MSCircularSlider">
+                                <rect key="frame" x="16" y="173" width="288" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0du-ID-G6B">
+                                        <rect key="frame" x="66" y="87" width="156" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="30"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.4141438603" green="0.75930929179999995" blue="0.34814357759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_firstGradientColor">
+                                        <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.09148154849041093" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_secondGradientColor">
+                                        <color key="value" red="0.84342664479999996" green="0.35462939739999999" blue="0.28959202769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_thirdGradientColor">
+                                        <color key="value" red="1" green="0.27058823529999998" blue="0.05177119006849315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_minimumValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_maximumValue">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_currentValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_lineWidth">
+                                        <integer key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_filledColor">
+                                        <color key="value" red="0.84342664479999996" green="0.35462939739999999" blue="0.28959202769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_unfilledColor">
+                                        <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.34814357759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_handleType">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_handleColor">
+                                        <color key="value" red="0.0022114275490000002" green="0.1249864772" blue="0.288869977" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_labelOffset">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_markerCount">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_markerColor">
+                                        <color key="value" red="0.27055475115776062" green="0.27060747146606445" blue="0.27055144309997559" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="_snapToMarkers" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_handleEnlargementPoints">
+                                        <integer key="value" value="19"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="uAJ-4I-adS" eventType="valueChanged" id="3Dt-Ml-Up0"/>
+                                </connections>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" keyboardDismissMode="onDrag" text="از احساسی که الان داری بنویس..." textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="EHS-n7-mMv">
+                                <rect key="frame" x="16" y="434" width="288" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="dpP-xS-VM8" firstAttribute="bottom" secondItem="SaP-Lc-rlF" secondAttribute="bottom" id="4MA-ry-6UB"/>
-                            <constraint firstItem="SaP-Lc-rlF" firstAttribute="bottom" secondItem="B5l-5D-iyH" secondAttribute="bottom" constant="392" id="Arc-jM-j1j"/>
                             <constraint firstItem="dpP-xS-VM8" firstAttribute="top" secondItem="Uu6-gO-1nN" secondAttribute="top" id="DZv-py-frj"/>
-                            <constraint firstItem="B5l-5D-iyH" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" constant="49" id="N0w-fz-IYn"/>
                             <constraint firstItem="dpP-xS-VM8" firstAttribute="trailing" secondItem="SaP-Lc-rlF" secondAttribute="trailing" id="aAW-LC-63e"/>
-                            <constraint firstItem="B5l-5D-iyH" firstAttribute="top" secondItem="SaP-Lc-rlF" secondAttribute="top" constant="52" id="dqy-Zs-Eca"/>
-                            <constraint firstItem="SaP-Lc-rlF" firstAttribute="trailing" secondItem="B5l-5D-iyH" secondAttribute="trailing" constant="49" id="mtx-ou-kJe"/>
                             <constraint firstItem="dpP-xS-VM8" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" id="u2J-dH-iRe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SaP-Lc-rlF"/>
@@ -505,8 +626,13 @@
                     <tabBarItem key="tabBarItem" title="" image="homeTabbarIcon " id="wDt-of-JrI">
                         <color key="badgeColor" red="0.94509803921568625" green="0.81960784313725488" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="moodsLabel" destination="0du-ID-G6B" id="fWf-mL-6wf"/>
+                        <outlet property="slider" destination="MLC-Mb-59J" id="bQP-De-8Z6"/>
+                        <outlet property="textView" destination="EHS-n7-mMv" id="rqG-ER-z3h"/>
+                        <outlet property="whyLabel" destination="sDH-DP-1hI" id="qVZ-63-V86"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="615" y="-678.16901408450701"/>
         </scene>
@@ -537,6 +663,7 @@
     <resources>
         <image name="background-11" width="2700" height="4050"/>
         <image name="checked" width="341.33334350585938" height="341.33334350585938"/>
+        <image name="circuit" width="409.60000610351562" height="409.60000610351562"/>
         <image name="crying" width="380" height="380"/>
         <image name="direct" width="409.60000610351562" height="409.60000610351562"/>
         <image name="error" width="40" height="40"/>

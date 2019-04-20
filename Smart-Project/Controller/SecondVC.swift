@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MSCircularSlider
 
 class SecondVC: UIViewController {
     
