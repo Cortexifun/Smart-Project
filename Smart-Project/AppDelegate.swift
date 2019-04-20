@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HGCircularSlider
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

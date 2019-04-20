@@ -10,11 +10,21 @@ import UIKit
 
 class SecondVC: UIViewController {
     
+    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
     
+    
+    @IBAction func sliderChanged(_ sender: UISlider) {
+        let sliderValue = Int(sender.value)
+        
+        label.text = "\(sliderValue)"
+        
+    }
     
 }
 

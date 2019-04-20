@@ -453,28 +453,48 @@
             </objects>
             <point key="canvasLocation" x="615" y="1293"/>
         </scene>
-        <!--View Controller-->
+        <!--SecondVC-->
         <scene sceneID="byb-au-gLn">
             <objects>
-                <viewController id="GVQ-mM-Iuq" sceneMemberID="viewController">
+                <viewController id="GVQ-mM-Iuq" customClass="SecondVC" customModule="Smart_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="paN-Y2-cde">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="LCr-jB-jE5">
+                                <rect key="frame" x="71" y="141" width="175" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="GVQ-mM-Iuq" eventType="valueChanged" id="Ddi-nH-eSW"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfq-cQ-T6c">
+                                <rect key="frame" x="137" y="71" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GUo-6J-gm4"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="testTabBar" id="zrl-Ug-oe0">
                         <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="label" destination="Kfq-cQ-T6c" id="2t5-Jf-jDf"/>
+                        <outlet property="slider" destination="LCr-jB-jE5" id="gi6-6u-GOB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XTg-UL-lmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="615" y="-23"/>
+            <point key="canvasLocation" x="615" y="-23.239436619718312"/>
         </scene>
         <!--HomeVC-->
         <scene sceneID="9OZ-Km-8VC">
             <objects>
-                <viewController id="uAJ-4I-adS" userLabel="HomeVC" sceneMemberID="viewController">
+                <viewController id="uAJ-4I-adS" userLabel="HomeVC" customClass="HomeVC" customModule="Smart_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uu6-gO-1nN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -490,15 +510,6 @@
                             </label>
                             <view alpha="0.69999999999999996" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="KA4-HD-csz" customClass="CircularSlider" customModule="HGCircularSlider">
                                 <rect key="frame" x="16" y="178" width="288" height="193"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="عصبانی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bso-Qi-MbW">
-                                        <rect key="frame" x="106" y="45" width="76" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
@@ -535,9 +546,18 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeHighlightedColor">
                                         <color key="value" red="0.94509803920000002" green="0.81960784310000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfRounds">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="sliderStops:" destination="emn-7W-9Ug" eventType="valueChanged" id="SPX-Ov-3cg"/>
+                                    <action selector="moodSliderChanged:" destination="uAJ-4I-adS" eventType="valueChanged" id="XkY-qD-nsd"/>
                                 </connections>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="braincircuit" translatesAutoresizingMaskIntoConstraints="NO" id="Ac7-Ck-QEH">
@@ -548,6 +568,13 @@
                                 <rect key="frame" x="124" y="85" width="72" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bso-Qi-MbW">
+                                <rect key="frame" x="256" y="60" width="23" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -586,9 +613,12 @@
                     <tabBarItem key="tabBarItem" title="" image="homeTabbarIcon " id="wDt-of-JrI">
                         <color key="badgeColor" red="0.94509803921568625" green="0.81960784313725488" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="mood" destination="bso-Qi-MbW" id="KCE-1O-yah"/>
+                        <outlet property="moodSlider" destination="KA4-HD-csz" id="FiZ-r3-man"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="emn-7W-9Ug" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="615" y="-678.16901408450701"/>
         </scene>
