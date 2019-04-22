@@ -461,13 +461,87 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="msy-pc-dvV">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SKd-kl-l5H">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تست مورد نظر خود را انتخاب کنید:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wS-w2-zFW">
+                                        <rect key="frame" x="77" y="28" width="235" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="apX-ZU-jrl">
+                                        <rect key="frame" x="0.0" y="68" width="320" height="451"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="121" id="gjf-dy-aG9" customClass="TestsCell" customModule="Smart_Project" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="320" height="121"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gjf-dy-aG9" id="kmp-t2-ckb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="120.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عنوان تست:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eR-m7-0JA">
+                                                            <rect key="frame" x="223" y="11" width="82" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circuit" translatesAutoresizingMaskIntoConstraints="NO" id="giX-vE-2Gl">
+                                                            <rect key="frame" x="15" y="11" width="100" height="99"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="توضیحات درمورد تست" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-Nm-woM">
+                                                            <rect key="frame" x="123" y="39" width="183" height="71"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="71" id="b5X-Pe-qGG"/>
+                                                                <constraint firstAttribute="width" constant="183" id="yf9-oJ-FhP"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="18"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="0eR-m7-0JA" firstAttribute="top" secondItem="kmp-t2-ckb" secondAttribute="topMargin" id="5y4-xA-Pgy"/>
+                                                        <constraint firstAttribute="trailingMargin" secondItem="amf-Nm-woM" secondAttribute="trailing" constant="-1" id="MIv-fH-Y91"/>
+                                                        <constraint firstItem="giX-vE-2Gl" firstAttribute="top" secondItem="kmp-t2-ckb" secondAttribute="topMargin" id="PTZ-ms-DCq"/>
+                                                        <constraint firstItem="amf-Nm-woM" firstAttribute="bottom" secondItem="giX-vE-2Gl" secondAttribute="bottom" id="V3a-rg-Pej"/>
+                                                        <constraint firstItem="0eR-m7-0JA" firstAttribute="trailing" secondItem="kmp-t2-ckb" secondAttribute="trailingMargin" id="by8-Pm-GFP"/>
+                                                        <constraint firstItem="amf-Nm-woM" firstAttribute="top" secondItem="0eR-m7-0JA" secondAttribute="bottom" constant="7" id="eAn-dK-QNg"/>
+                                                        <constraint firstItem="amf-Nm-woM" firstAttribute="leading" secondItem="giX-vE-2Gl" secondAttribute="trailing" constant="8" symbolic="YES" id="lFC-Dz-hG0"/>
+                                                        <constraint firstItem="giX-vE-2Gl" firstAttribute="leading" secondItem="kmp-t2-ckb" secondAttribute="leadingMargin" id="ukV-zo-SdS"/>
+                                                        <constraint firstItem="giX-vE-2Gl" firstAttribute="bottom" secondItem="kmp-t2-ckb" secondAttribute="bottomMargin" id="v0r-z7-nB2"/>
+                                                    </constraints>
+                                                </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="testDisc" destination="amf-Nm-woM" id="Hut-Sd-dJq"/>
+                                                    <outlet property="testImage" destination="giX-vE-2Gl" id="tVH-pP-yCJ"/>
+                                                    <outlet property="testTitle" destination="0eR-m7-0JA" id="C3Z-Kz-MLL"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                    </tableView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1wS-w2-zFW" firstAttribute="trailing" secondItem="SKd-kl-l5H" secondAttribute="trailingMargin" id="4gs-04-m33"/>
+                                    <constraint firstAttribute="bottom" secondItem="apX-ZU-jrl" secondAttribute="bottom" id="60u-a7-tB2"/>
+                                    <constraint firstItem="1wS-w2-zFW" firstAttribute="top" secondItem="SKd-kl-l5H" secondAttribute="topMargin" id="GCd-kj-mIZ"/>
+                                    <constraint firstItem="1wS-w2-zFW" firstAttribute="leading" secondItem="SKd-kl-l5H" secondAttribute="leadingMargin" constant="69" id="Nev-tb-eb1"/>
+                                    <constraint firstItem="apX-ZU-jrl" firstAttribute="leading" secondItem="SKd-kl-l5H" secondAttribute="leading" id="SaN-zX-Cte"/>
+                                    <constraint firstAttribute="trailing" secondItem="apX-ZU-jrl" secondAttribute="trailing" id="XFo-OK-dCe"/>
+                                    <constraint firstItem="apX-ZU-jrl" firstAttribute="top" secondItem="1wS-w2-zFW" secondAttribute="bottom" constant="19" id="XRy-6A-cjY"/>
+                                    <constraint firstItem="apX-ZU-jrl" firstAttribute="top" secondItem="1wS-w2-zFW" secondAttribute="bottom" constant="19" id="pTp-bV-7hO"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SKd-kl-l5H" firstAttribute="leading" secondItem="GUo-6J-gm4" secondAttribute="leading" id="2D6-qe-Ii9"/>
+                            <constraint firstItem="SKd-kl-l5H" firstAttribute="bottom" secondItem="GUo-6J-gm4" secondAttribute="bottom" id="R4M-P2-gWg"/>
+                            <constraint firstItem="SKd-kl-l5H" firstAttribute="trailing" secondItem="GUo-6J-gm4" secondAttribute="trailing" id="TF4-O0-DkW"/>
+                            <constraint firstItem="SKd-kl-l5H" firstAttribute="top" secondItem="paN-Y2-cde" secondAttribute="top" id="ghk-YW-FYc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="GUo-6J-gm4"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="_minimumValue">
@@ -505,6 +579,9 @@
                     <tabBarItem key="tabBarItem" title="" image="testTabBar" id="zrl-Ug-oe0">
                         <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="testTableView" destination="apX-ZU-jrl" id="k5t-e8-viz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XTg-UL-lmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -513,7 +590,6 @@
         <!--HomeVC-->
         <scene sceneID="9OZ-Km-8VC">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="uAJ-4I-adS" customClass="HomeVC" customModule="Smart_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uu6-gO-1nN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
@@ -544,13 +620,16 @@
                                 <rect key="frame" x="16" y="173" width="288" height="217"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0du-ID-G6B">
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0du-ID-G6B">
                                         <rect key="frame" x="66" y="87" width="156" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="30"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.4141438603" green="0.75930929179999995" blue="0.34814357759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -612,6 +691,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="6"/>
+                                </userDefinedRuntimeAttributes>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -633,6 +715,7 @@
                         <outlet property="whyLabel" destination="sDH-DP-1hI" id="qVZ-63-V86"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="615" y="-678.16901408450701"/>
         </scene>

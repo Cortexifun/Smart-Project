@@ -12,15 +12,23 @@ import MSCircularSlider
 class HomeVC: UIViewController {
     
     @IBOutlet weak var slider: MSGradientCircularSlider!
-    @IBOutlet weak var moodsLabel: UILabel!
+    @IBOutlet public weak var moodsLabel: UILabel!
     @IBOutlet weak var whyLabel: UILabel!
     @IBOutlet weak var textView: UITextView!
+    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         moodsLabel.text = "عالی ام"
         whyLabel.text = " "
         textView.isHidden = true
+        
+        moodsLabel?.layer.masksToBounds = true
+        moodsLabel?.layer.cornerRadius = 6
+        
+        
+
     }
     
     @IBAction func sliderChanged(_ sender: MSGradientCircularSlider) {
@@ -48,10 +56,13 @@ class HomeVC: UIViewController {
             textView.isHidden = false
         }
         
+    
+        
     }
     
     
-
+    
+    
     
 
 }

@@ -11,6 +11,9 @@ import MSCircularSlider
 
 class SecondVC: UIViewController {
     
+    @IBOutlet weak var testTableView : UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
