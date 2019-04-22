@@ -481,8 +481,12 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="120.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="عنوان تست:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eR-m7-0JA">
-                                                            <rect key="frame" x="129" y="11" width="176" height="21"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عنوان تست:" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eR-m7-0JA">
+                                                            <rect key="frame" x="123" y="11" width="182" height="41"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="41" id="9Vd-qs-PCd"/>
+                                                                <constraint firstAttribute="width" constant="182" id="M68-6R-Hkc"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -495,12 +499,12 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="توضیحات درمورد تست" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-Nm-woM">
-                                                            <rect key="frame" x="123" y="39" width="183" height="71"/>
+                                                            <rect key="frame" x="123" y="60" width="183" height="50"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="71" id="b5X-Pe-qGG"/>
+                                                                <constraint firstAttribute="height" constant="50" id="wfu-O6-XiT"/>
                                                                 <constraint firstAttribute="width" constant="183" id="yf9-oJ-FhP"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="15"/>
+                                                            <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -511,7 +515,6 @@
                                                         <constraint firstItem="giX-vE-2Gl" firstAttribute="top" secondItem="kmp-t2-ckb" secondAttribute="topMargin" id="PTZ-ms-DCq"/>
                                                         <constraint firstItem="amf-Nm-woM" firstAttribute="bottom" secondItem="giX-vE-2Gl" secondAttribute="bottom" id="V3a-rg-Pej"/>
                                                         <constraint firstItem="0eR-m7-0JA" firstAttribute="trailing" secondItem="kmp-t2-ckb" secondAttribute="trailingMargin" id="by8-Pm-GFP"/>
-                                                        <constraint firstItem="amf-Nm-woM" firstAttribute="top" secondItem="0eR-m7-0JA" secondAttribute="bottom" constant="7" id="eAn-dK-QNg"/>
                                                         <constraint firstItem="amf-Nm-woM" firstAttribute="leading" secondItem="giX-vE-2Gl" secondAttribute="trailing" constant="8" symbolic="YES" id="lFC-Dz-hG0"/>
                                                         <constraint firstItem="giX-vE-2Gl" firstAttribute="leading" secondItem="kmp-t2-ckb" secondAttribute="leadingMargin" id="ukV-zo-SdS"/>
                                                         <constraint firstItem="giX-vE-2Gl" firstAttribute="bottom" secondItem="kmp-t2-ckb" secondAttribute="bottomMargin" id="v0r-z7-nB2"/>
@@ -639,13 +642,13 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_firstGradientColor">
-                                        <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.09148154849041093" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.92708331349999995" green="0.59612977499999997" blue="0.45007497070000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_secondGradientColor">
-                                        <color key="value" red="0.84342664479999996" green="0.35462939739999999" blue="0.28959202769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="1" green="0.27058823529999998" blue="0.051771190070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_thirdGradientColor">
-                                        <color key="value" red="1" green="0.27058823529999998" blue="0.05177119006849315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="_minimumValue">
                                         <real key="value" value="0.0"/>
@@ -660,10 +663,10 @@
                                         <integer key="value" value="17"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_filledColor">
-                                        <color key="value" red="0.84342664479999996" green="0.35462939739999999" blue="0.28959202769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="1" green="0.27058823529999998" blue="0.051771190070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_unfilledColor">
-                                        <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.34814357759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.92708331349999995" green="0.59612977499999997" blue="0.45007497070000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="_handleType">
                                         <integer key="value" value="3"/>
