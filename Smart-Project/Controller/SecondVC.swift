@@ -9,7 +9,7 @@
 import UIKit
 import MSCircularSlider
 
-class SecondVC: UIViewController {
+class TestsVC: UIViewController {
     
     @IBOutlet weak var testTableView : UITableView!
     

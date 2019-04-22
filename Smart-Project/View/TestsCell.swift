@@ -14,15 +14,11 @@ class TestsCell: UITableViewCell {
     @IBOutlet weak var testTitle : UILabel!
     @IBOutlet weak var testDisc : UILabel!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func updateViews(test: Test) {
+        testImage.image = UIImage(named: test.imageName)
+        testTitle.text = test.title
+        testDisc.text = test.discription
+        
     }
 
 }
