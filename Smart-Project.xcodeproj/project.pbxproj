@@ -21,6 +21,12 @@
 		60CBF4D5226E4EB100BE0D24 /* TestsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CBF4D4226E4EB100BE0D24 /* TestsVC.swift */; };
 		60CBF4D7226E4F8200BE0D24 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CBF4D6226E4F8200BE0D24 /* Test.swift */; };
 		60CBF4DA226E50EF00BE0D24 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CBF4D9226E50EF00BE0D24 /* DataService.swift */; };
+		60D6838B226FC608000950E4 /* IRANSansMobile_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60D68387226FC5EB000950E4 /* IRANSansMobile_Black.ttf */; };
+		60D6838C226FC608000950E4 /* IRANSansMobile_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60D68389226FC5EB000950E4 /* IRANSansMobile_Bold.ttf */; };
+		60D6838D226FC608000950E4 /* IRANSansMobile_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60D68388226FC5EB000950E4 /* IRANSansMobile_Light.ttf */; };
+		60D6838E226FC608000950E4 /* IRANSansMobile_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60D68386226FC5EB000950E4 /* IRANSansMobile_Medium.ttf */; };
+		60D6838F226FC608000950E4 /* IRANSansMobile_UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60D68385226FC5EB000950E4 /* IRANSansMobile_UltraLight.ttf */; };
+		60D68390226FC608000950E4 /* IRANSansMobile.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60D6838A226FC5EB000950E4 /* IRANSansMobile.ttf */; };
 		985A2A953795497CF007DDCC /* Pods_Smart_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD79A8552E4CB5509152D84 /* Pods_Smart_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +47,12 @@
 		60CBF4D4226E4EB100BE0D24 /* TestsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsVC.swift; sourceTree = "<group>"; };
 		60CBF4D6226E4F8200BE0D24 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		60CBF4D9226E50EF00BE0D24 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		60D68385226FC5EB000950E4 /* IRANSansMobile_UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_UltraLight.ttf; sourceTree = "<group>"; };
+		60D68386226FC5EB000950E4 /* IRANSansMobile_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_Medium.ttf; sourceTree = "<group>"; };
+		60D68387226FC5EB000950E4 /* IRANSansMobile_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_Black.ttf; sourceTree = "<group>"; };
+		60D68388226FC5EB000950E4 /* IRANSansMobile_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_Light.ttf; sourceTree = "<group>"; };
+		60D68389226FC5EB000950E4 /* IRANSansMobile_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile_Bold.ttf; sourceTree = "<group>"; };
+		60D6838A226FC5EB000950E4 /* IRANSansMobile.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile.ttf; sourceTree = "<group>"; };
 		6FD79A8552E4CB5509152D84 /* Pods_Smart_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F1FB3278EB16F50B942D8D /* Pods-Smart-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart-Project.release.xcconfig"; path = "Target Support Files/Pods-Smart-Project/Pods-Smart-Project.release.xcconfig"; sourceTree = "<group>"; };
 		8E071437CE538B285411AC26 /* Pods-Smart-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart-Project.debug.xcconfig"; path = "Target Support Files/Pods-Smart-Project/Pods-Smart-Project.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +129,12 @@
 		60AF38102263BEC000B718E3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				60D68387226FC5EB000950E4 /* IRANSansMobile_Black.ttf */,
+				60D68389226FC5EB000950E4 /* IRANSansMobile_Bold.ttf */,
+				60D68388226FC5EB000950E4 /* IRANSansMobile_Light.ttf */,
+				60D68386226FC5EB000950E4 /* IRANSansMobile_Medium.ttf */,
+				60D68385226FC5EB000950E4 /* IRANSansMobile_UltraLight.ttf */,
+				60D6838A226FC5EB000950E4 /* IRANSansMobile.ttf */,
 				60861D7B2267417D00D0495A /* B Mitra.ttf */,
 			);
 			path = Resources;
@@ -215,6 +233,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D6838B226FC608000950E4 /* IRANSansMobile_Black.ttf in Resources */,
+				60D6838C226FC608000950E4 /* IRANSansMobile_Bold.ttf in Resources */,
+				60D6838D226FC608000950E4 /* IRANSansMobile_Light.ttf in Resources */,
+				60D6838E226FC608000950E4 /* IRANSansMobile_Medium.ttf in Resources */,
+				60D6838F226FC608000950E4 /* IRANSansMobile_UltraLight.ttf in Resources */,
+				60D68390226FC608000950E4 /* IRANSansMobile.ttf in Resources */,
 				60861D7C2267418600D0495A /* B Mitra.ttf in Resources */,
 				60AF38062263AB3E00B718E3 /* LaunchScreen.storyboard in Resources */,
 				60AF38032263AB3E00B718E3 /* Assets.xcassets in Resources */,

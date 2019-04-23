@@ -24,7 +24,6 @@ class DataService {
     Test(title: "تست سبک حل تعارض TKI", imageName: "TKI.png", discription: "سبک حل تعارض بین شما و بقیه افراد چگونه است"),
     Test(title: "سبک برخورد با استرس CSI", imageName: "CSI.png", discription: "با نحوه مدیریت استرس خود آشنا شوید"),
     Test(title: "شناسایی لنگرگاه های مسیر شغلی", imageName: "Anchor.png", discription: "برآیند انتظارات شما از شغل خود"),
-    Test(title: "تست سلامت بهداشت عمومی", imageName: "GHQ.png", discription: "وضعیت سلامت عمومی شما"),
     Test(title: "تست سلامت بهداشت عمومی", imageName: "GHQ.png", discription: "وضعیت سلامت عمومی شما")
     ]
     

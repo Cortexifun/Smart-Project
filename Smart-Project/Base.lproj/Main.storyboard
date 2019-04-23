@@ -10,8 +10,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="B Mitra.ttf">
-            <string>BMitra</string>
+        <array key="IRANSansMobile.ttf">
+            <string>IRANSansMobile</string>
+        </array>
+        <array key="IRANSansMobile_Bold.ttf">
+            <string>IRANSansMobile-Bold</string>
+        </array>
+        <array key="IRANSansMobile_Light.ttf">
+            <string>IRANSansMobile-Light</string>
+        </array>
+        <array key="IRANSansMobile_Medium.ttf">
+            <string>IRANSansMobile-Medium</string>
         </array>
     </customFonts>
     <scenes>
@@ -28,7 +37,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="امید توانایی" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nu-pO-pQt">
                                 <rect key="frame" x="112" y="138" width="97" height="22"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -36,7 +45,7 @@
                                 <rect key="frame" x="184" y="209" width="46" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -44,7 +53,7 @@
                                 <rect key="frame" x="137" y="209" width="46" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -52,7 +61,7 @@
                                 <rect key="frame" x="90" y="209" width="46" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -60,21 +69,21 @@
                                 <rect key="frame" x="43" y="209" width="46" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.027450980390000001" green="0.27058823529999998" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="10"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تست های انجام شده:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsT-di-sOg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تست های انجام شده:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsT-di-sOg">
                                 <rect key="frame" x="180" y="373" width="130" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="برآیند شخصیتی:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLl-IC-dz5">
                                 <rect key="frame" x="182" y="264" width="128" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -86,31 +95,31 @@
                                 <rect key="frame" x="191" y="239" width="18" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="bottom" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-HZ-kBW">
-                                <rect key="frame" x="243" y="291" width="67" height="74"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-HZ-kBW">
+                                <rect key="frame" x="243" y="291" width="63.5" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="هوش هیجانی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHR-cP-43T">
-                                        <rect key="frame" x="1" y="0.0" width="66" height="17"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <rect key="frame" x="1" y="0.0" width="62.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="احساس شادی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05F-mv-gvL">
-                                        <rect key="frame" x="0.0" y="19" width="67" height="17"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="19" width="63.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اضطراب" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7i-u4-MJ1">
-                                        <rect key="frame" x="27.5" y="38" width="39.5" height="17"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <rect key="frame" x="28" y="38" width="35.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="همکاری" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wl2-IY-0bs">
-                                        <rect key="frame" x="27" y="57" width="40" height="17"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <rect key="frame" x="29" y="57" width="34.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -125,7 +134,7 @@
                                 <rect key="frame" x="10" y="168" width="300" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.027450980392156862" green="0.27058823529411763" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="17"/>
                                 <state key="normal" title="دنبال کردن">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -166,31 +175,31 @@
                                 <rect key="frame" x="204" y="350" width="13" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="bottom" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Ajb-TN-Pal">
-                                <rect key="frame" x="77" y="291" width="86.5" height="74"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ajb-TN-Pal">
+                                <rect key="frame" x="77" y="291" width="78" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="توانایی کار گروهی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alM-Ct-hm6">
-                                        <rect key="frame" x="0.0" y="0.0" width="86.5" height="17"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="78" height="14"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ضریب هوشی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crP-Tx-c8N">
-                                        <rect key="frame" x="22" y="19" width="64.5" height="17"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <rect key="frame" x="17.5" y="19" width="60.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="شادابی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsp-B5-Qcd">
-                                        <rect key="frame" x="55" y="38" width="31.5" height="17"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <rect key="frame" x="47.5" y="38" width="30.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="فعالیت فیزیکی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zs9-WK-KzA">
-                                        <rect key="frame" x="17.5" y="57" width="69" height="17"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
+                                        <rect key="frame" x="12.5" y="57" width="65.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -247,14 +256,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="سبک شخصیتی: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rO-Et-zQS">
                                 <rect key="frame" x="233" y="203" width="77" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="برآيند مود هفته اخیر: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iax-Ij-1F5">
                                 <rect key="frame" x="214" y="232" width="96" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="11"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -435,7 +444,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qmz-hn-Vyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="615" y="634"/>
+            <point key="canvasLocation" x="615" y="633.80281690140851"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6h3-hk-hpg">
@@ -465,13 +474,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تست مورد نظر خود را انتخاب کنید:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wS-w2-zFW">
-                                        <rect key="frame" x="77" y="28" width="235" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="77" y="28" width="235" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="apX-ZU-jrl">
-                                        <rect key="frame" x="0.0" y="68" width="320" height="451"/>
+                                        <rect key="frame" x="0.0" y="67.5" width="320" height="451.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TestCell" rowHeight="121" id="gjf-dy-aG9" customClass="TestsCell" customModule="Smart_Project" customModuleProvider="target">
@@ -482,42 +491,38 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عنوان تست:" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eR-m7-0JA">
-                                                            <rect key="frame" x="123" y="11" width="182" height="41"/>
+                                                            <rect key="frame" x="123" y="11" width="182" height="63"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="41" id="9Vd-qs-PCd"/>
-                                                                <constraint firstAttribute="width" constant="182" id="M68-6R-Hkc"/>
+                                                                <constraint firstAttribute="height" constant="63" id="IDm-1B-FeD"/>
+                                                                <constraint firstAttribute="width" constant="182" id="jRA-Gh-nZr"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <fontDescription key="fontDescription" name="IRANSansMobile-Bold" family="IRANSansMobile" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="توضیحات درمورد تست" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-Nm-woM">
+                                                            <rect key="frame" x="123" y="92" width="182" height="18"/>
+                                                            <fontDescription key="fontDescription" name="IRANSansMobile-Light" family="IRANSansMobile" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circuit" translatesAutoresizingMaskIntoConstraints="NO" id="giX-vE-2Gl">
-                                                            <rect key="frame" x="15" y="11" width="100" height="99"/>
+                                                            <rect key="frame" x="15" y="18" width="76" height="83"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="99" id="9P3-Il-OBv"/>
-                                                                <constraint firstAttribute="width" constant="100" id="e5i-WY-UqE"/>
+                                                                <constraint firstAttribute="width" constant="76" id="8rX-9A-nFC"/>
+                                                                <constraint firstAttribute="height" constant="83" id="Q2f-x2-E3J"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="توضیحات درمورد تست" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-Nm-woM">
-                                                            <rect key="frame" x="123" y="60" width="183" height="50"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="50" id="wfu-O6-XiT"/>
-                                                                <constraint firstAttribute="width" constant="183" id="yf9-oJ-FhP"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstItem="0eR-m7-0JA" firstAttribute="top" secondItem="kmp-t2-ckb" secondAttribute="topMargin" id="5y4-xA-Pgy"/>
-                                                        <constraint firstAttribute="trailingMargin" secondItem="amf-Nm-woM" secondAttribute="trailing" constant="-1" id="MIv-fH-Y91"/>
-                                                        <constraint firstItem="giX-vE-2Gl" firstAttribute="top" secondItem="kmp-t2-ckb" secondAttribute="topMargin" id="PTZ-ms-DCq"/>
-                                                        <constraint firstItem="amf-Nm-woM" firstAttribute="bottom" secondItem="giX-vE-2Gl" secondAttribute="bottom" id="V3a-rg-Pej"/>
-                                                        <constraint firstItem="0eR-m7-0JA" firstAttribute="trailing" secondItem="kmp-t2-ckb" secondAttribute="trailingMargin" id="by8-Pm-GFP"/>
-                                                        <constraint firstItem="amf-Nm-woM" firstAttribute="leading" secondItem="giX-vE-2Gl" secondAttribute="trailing" constant="8" symbolic="YES" id="lFC-Dz-hG0"/>
-                                                        <constraint firstItem="giX-vE-2Gl" firstAttribute="leading" secondItem="kmp-t2-ckb" secondAttribute="leadingMargin" id="ukV-zo-SdS"/>
-                                                        <constraint firstItem="giX-vE-2Gl" firstAttribute="bottom" secondItem="kmp-t2-ckb" secondAttribute="bottomMargin" id="v0r-z7-nB2"/>
+                                                        <constraint firstAttribute="bottomMargin" secondItem="amf-Nm-woM" secondAttribute="bottom" id="2Bc-Zf-6aR"/>
+                                                        <constraint firstItem="0eR-m7-0JA" firstAttribute="top" secondItem="kmp-t2-ckb" secondAttribute="topMargin" id="DzA-Ml-MB5"/>
+                                                        <constraint firstAttribute="bottomMargin" secondItem="giX-vE-2Gl" secondAttribute="bottom" constant="9" id="SXW-tz-aRy"/>
+                                                        <constraint firstAttribute="trailingMargin" secondItem="amf-Nm-woM" secondAttribute="trailing" id="SwH-sW-web"/>
+                                                        <constraint firstItem="giX-vE-2Gl" firstAttribute="leading" secondItem="kmp-t2-ckb" secondAttribute="leadingMargin" id="kCe-4M-js7"/>
+                                                        <constraint firstAttribute="trailingMargin" secondItem="0eR-m7-0JA" secondAttribute="trailing" id="nkB-jy-zdA"/>
+                                                        <constraint firstItem="amf-Nm-woM" firstAttribute="leading" secondItem="giX-vE-2Gl" secondAttribute="trailing" constant="32" id="uaT-7L-nhJ"/>
+                                                        <constraint firstItem="giX-vE-2Gl" firstAttribute="top" secondItem="kmp-t2-ckb" secondAttribute="topMargin" constant="7" id="urR-9Q-Od9"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
@@ -608,7 +613,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="از امروزت بگو؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5l-5D-iyH">
                                 <rect key="frame" x="40" y="125" width="222" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -617,9 +622,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDH-DP-1hI">
-                                <rect key="frame" x="40" y="409" width="248" height="24"/>
+                                <rect key="frame" x="40" y="403" width="248" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -631,7 +636,8 @@
                                         <rect key="frame" x="72" y="93" width="143" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="28"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="23"/>
+                                        <color key="textColor" red="0.2705547512" green="0.27060747149999997" blue="0.27055144310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.4141438603" green="0.75930929179999995" blue="0.34814357759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <userDefinedRuntimeAttributes>
@@ -692,11 +698,12 @@
                                     <action selector="sliderChanged:" destination="uAJ-4I-adS" eventType="valueChanged" id="3Dt-Ml-Up0"/>
                                 </connections>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" keyboardDismissMode="onDrag" text="از احساسی که الان داری بنویس..." textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="EHS-n7-mMv">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" keyboardDismissMode="onDrag" text="از احساسی که الان داری بنویس..." textAlignment="right" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EHS-n7-mMv">
                                 <rect key="frame" x="16" y="434" width="288" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="BMitra" family="B Mitra" pointSize="19"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="6"/>
