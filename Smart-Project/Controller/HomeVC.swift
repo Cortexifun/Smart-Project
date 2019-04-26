@@ -9,26 +9,29 @@
 import UIKit
 import MSCircularSlider
 
-class HomeVC: UIViewController {
+class HomeVC: UIViewController, UITextViewDelegate {
     
+    @IBOutlet weak var moodWeightLabel: UILabel!
     @IBOutlet weak var slider: MSGradientCircularSlider!
     @IBOutlet public weak var moodsLabel: UILabel!
     @IBOutlet weak var whyLabel: UILabel!
     @IBOutlet weak var textView: UITextView!
     
    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         moodsLabel.text = "عالی ام"
         whyLabel.text = " "
         textView.isHidden = true
         
+        self.textView.delegate = self
+        
         moodsLabel?.layer.masksToBounds = true
         moodsLabel?.layer.cornerRadius = 6
         
+        moodWeightLabel?.layer.masksToBounds = true
+        moodWeightLabel?.layer.cornerRadius = 6
         
-
     }
     
     @IBAction func sliderChanged(_ sender: MSGradientCircularSlider) {
@@ -51,19 +54,28 @@ class HomeVC: UIViewController {
             moodsLabel.text = "عالی ام"
         }
        
-        if moodsLabel.text == "تعریفی نداره" {
+        if sender.currentValue >= 4 {
             whyLabel.text = "از احساساتت برام بگو"
             textView.isHidden = false
         }
         
-    
         
+        func numberOfWordsInTextView(textView: UITextView) -> Int {
+            
+            textView.resignFirstResponder()  //if desired
+            let emotionText = textView.text
+            let components = emotionText?.components(separatedBy:.whitespacesAndNewlines)
+            let words = components!.filter { !$0.isEmpty }
+            print(emotionText!)
+            print(words.count)
+            return words.count
+        }
+        
+        let test : Int
+       test = numberOfWordsInTextView(textView: textView)
+       print(test)
     }
-    
-    
-    
-    
-    
+
 
 }
 
