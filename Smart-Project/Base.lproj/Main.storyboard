@@ -131,7 +131,7 @@
                                 <state key="normal" image="settings"/>
                             </button>
                             <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3L-pw-qP4" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
-                                <rect key="frame" x="10" y="168" width="300" height="27"/>
+                                <rect key="frame" x="10" y="172" width="300" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.027450980392156862" green="0.27058823529411763" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="17"/>
@@ -285,30 +285,30 @@
                                 <state key="normal" image="direct"/>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="NZs-d3-VHb">
-                                <rect key="frame" x="23" y="406" width="59" height="71"/>
+                                <rect key="frame" x="23" y="406" width="58" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IQ Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZv-YX-wqa">
-                                        <rect key="frame" x="0.0" y="0.0" width="38.5" height="15.5"/>
-                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="39" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MMPI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgU-fd-W0G">
-                                        <rect key="frame" x="0.0" y="18.5" width="34" height="15.5"/>
-                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <rect key="frame" x="0.0" y="18.5" width="32" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DISC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEs-5P-Qct">
-                                        <rect key="frame" x="0.0" y="37" width="29" height="15.5"/>
-                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <rect key="frame" x="0.0" y="37" width="26.5" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team Role" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgw-Xw-FZU">
-                                        <rect key="frame" x="0.0" y="55.5" width="59" height="15.5"/>
-                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="13"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="58" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -437,9 +437,9 @@
                         <viewLayoutGuide key="safeArea" id="v43-eG-IMX"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="profileTabBar" id="3nL-4h-1eK">
-                        <inset key="landscapeImageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
-                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="5" maxX="0.0" maxY="2"/>
-                        <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                        <color key="badgeColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qmz-hn-Vyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -456,7 +456,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bDd-1W-wkR"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="flowerTabBar" id="gXn-Ov-gHI"/>
+                    <tabBarItem key="tabBarItem" title="" image="flowerTabBar" id="gXn-Ov-gHI">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BsT-I9-UN1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -514,6 +516,7 @@
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
+                                                    <color key="backgroundColor" red="0.85882352941176465" green="0.9882352941176471" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="bottomMargin" secondItem="amf-Nm-woM" secondAttribute="bottom" id="2Bc-Zf-6aR"/>
                                                         <constraint firstItem="0eR-m7-0JA" firstAttribute="top" secondItem="kmp-t2-ckb" secondAttribute="topMargin" id="DzA-Ml-MB5"/>
@@ -534,7 +537,7 @@
                                         </prototypes>
                                     </tableView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.85882352941176465" green="0.9882352941176471" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="1wS-w2-zFW" firstAttribute="trailing" secondItem="SKd-kl-l5H" secondAttribute="trailingMargin" id="4gs-04-m33"/>
                                     <constraint firstAttribute="bottom" secondItem="apX-ZU-jrl" secondAttribute="bottom" id="60u-a7-tB2"/>
@@ -588,8 +591,9 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="testTabBar" id="zrl-Ug-oe0">
-                        <color key="badgeColor" red="0.083795912563800812" green="0.77031147480010986" blue="0.62928074598312378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <tabBarItem key="tabBarItem" title="" image="success" id="zrl-Ug-oe0">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                        <color key="badgeColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="testsTableView" destination="apX-ZU-jrl" id="AaX-K0-vOS"/>
@@ -607,39 +611,90 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-11" translatesAutoresizingMaskIntoConstraints="NO" id="dpP-xS-VM8">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circuit" translatesAutoresizingMaskIntoConstraints="NO" id="Dhr-Wv-NRd">
-                                <rect key="frame" x="124" y="41" width="72" height="66"/>
+                                <rect key="frame" x="273" y="27" width="31" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDH-DP-1hI">
-                                <rect key="frame" x="40" y="403" width="248" height="24"/>
+                            <view alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDG-10-O8U" customClass="MSCircularSlider">
+                                <rect key="frame" x="14" y="91" width="179" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_maximumValue">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_firstGradientColor">
+                                        <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.091481548489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_secondGradientColor">
+                                        <color key="value" red="1" green="0.52732098916555237" blue="0.077600216558400548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_thirdGradientColor">
+                                        <color key="value" red="1" green="0.27058823529999998" blue="0.051771190070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_lineWidth">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_filledColor">
+                                        <color key="value" red="0.84342664479999996" green="0.35462939739999999" blue="0.28959202769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_unfilledColor">
+                                        <color key="value" red="0.2666666667" green="0.46274509800000002" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_handleColor">
+                                        <color key="value" red="1" green="0.76862745098039209" blue="0.22745098039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_markerCount">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="_snapToLabels" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_commaSeparatedLabels" value="کم,1,2,3,4,زیاد"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_labelColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_labelOffset">
+                                        <real key="value" value="-7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_handleType">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_maximumAngle">
+                                        <real key="value" value="120"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_rotationAngle">
+                                        <real key="value" value="160"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="_minimumValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="_snapToMarkers" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <view alpha="0.75" contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLC-Mb-59J" customClass="MSGradientCircularSlider" customModule="MSCircularSlider">
-                                <rect key="frame" x="106" y="173" width="198" height="173"/>
+                                <rect key="frame" x="68" y="27" width="185" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="7" translatesAutoresizingMaskIntoConstraints="NO" id="dQd-mt-dcv">
-                                        <rect key="frame" x="52" y="72" width="94" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="احساس خاصی ندارم" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0du-ID-G6B">
+                                        <rect key="frame" x="25" y="85" width="134" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </stepper>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="16"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_firstGradientColor">
-                                        <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.091481548489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.26666666666666666" green="0.46274509803921571" blue="0.015686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_secondGradientColor">
                                         <color key="value" red="1" green="0.52732098920000003" blue="0.077600216560000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_thirdGradientColor">
-                                        <color key="value" red="1" green="0.14190447910000001" blue="0.015907552990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.93725490199999995" green="0.2784313725" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="_minimumValue">
                                         <real key="value" value="0.0"/>
@@ -654,16 +709,16 @@
                                         <integer key="value" value="17"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_filledColor">
-                                        <color key="value" red="1" green="0.27058823529999998" blue="0.051771190070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" red="0.93725490196078431" green="0.27843137254901962" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_unfilledColor">
-                                        <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.091481548489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.26666666666666666" green="0.46274509803921571" blue="0.015686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="_handleType">
-                                        <integer key="value" value="3"/>
+                                        <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_handleColor">
-                                        <color key="value" red="0.93431613869863017" green="0.89594927226027399" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="1" green="0.76862745098039209" blue="0.22745098039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="_labelOffset">
                                         <real key="value" value="0.0"/>
@@ -683,109 +738,109 @@
                                     <action selector="sliderChanged:" destination="uAJ-4I-adS" eventType="valueChanged" id="3Dt-Ml-Up0"/>
                                 </connections>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="احساس خاصی ندارم" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0du-ID-G6B">
-                                <rect key="frame" x="0.0" y="244" width="119" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="با چه شدتی؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98e-hS-VjD">
+                                <rect key="frame" x="212" y="244" width="92" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="14"/>
-                                <color key="textColor" red="0.2705547512" green="0.27060747149999997" blue="0.27055144310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="16"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.92708331349999995" green="0.59612977499999997" blue="0.45007497070000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDG-10-O8U" customClass="MSGradientCircularSlider" customModule="MSCircularSlider">
-                                <rect key="frame" x="5" y="285" width="133" height="110"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="نظر بقیه راجع به شما؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdr-9k-qZm">
+                                <rect key="frame" x="189" y="420" width="123" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="_maximumValue">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="_firstGradientColor">
-                                        <color key="value" red="0.93431613869999997" green="0.89594927229999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="_secondGradientColor">
-                                        <color key="value" red="1" green="0.52732098916555237" blue="0.077600216558400548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="_thirdGradientColor">
-                                        <color key="value" red="1" green="0.27058823529999998" blue="0.051771190070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="_lineWidth">
-                                        <integer key="value" value="11"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="_filledColor">
-                                        <color key="value" red="1" green="0.14190447910000001" blue="0.015907552990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="_unfilledColor">
-                                        <color key="value" red="0.93431613869999997" green="0.89594927229999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="_handleColor">
-                                        <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.091481548489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="_markerCount">
-                                        <integer key="value" value="6"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="_snapToLabels" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="_commaSeparatedLabels" value="0,1,2,3,4,5"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="_labelColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="_labelOffset">
-                                        <real key="value" value="-6"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="_handleType">
-                                        <integer key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="با چه شدتی؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98e-hS-VjD">
-                                <rect key="frame" x="145" y="364" width="92" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="14"/>
-                                <color key="textColor" red="0.2705547512" green="0.27060747149999997" blue="0.27055144310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="13"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="از امروزت بگو؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tiw-ZW-L3t">
-                                <rect key="frame" x="94" y="127" width="132" height="31"/>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyC-vn-yF8" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
+                                <rect key="frame" x="6" y="474" width="149" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="IRANSansMobile-Medium" family="IRANSansMobile" pointSize="21"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.92708331349999995" green="0.59612977499999997" blue="0.45007497070000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="21"/>
+                                <state key="normal" title="تاریخچه مود">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgw-Z5-woj" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
+                                <rect key="frame" x="163" y="473" width="149" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="21"/>
+                                <state key="normal" title="ثبت">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" text="اگر خواستی میتونی احساساتی که داری رو دقیق‌تر بنویسی... " textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Go7-tk-xyh">
+                                <rect key="frame" x="6" y="297" width="308" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                 </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBW-ID-qXe" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
+                                <rect key="frame" x="13" y="360" width="118" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
+                                <state key="normal" title="+ اضافه کردن احساس ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="آخرین زمان ثبت حس:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyx-p2-swn">
+                                <rect key="frame" x="5" y="29" width="92" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="۹۸/۱/۱ - ۱۲:۳۰" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ec-pW-3qo">
+                                <rect key="frame" x="27" y="42" width="55" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="nId-WM-yJW">
+                                <rect key="frame" x="27" y="420" width="144" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.2666666667" green="0.46274509800000002" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="0.84342664479999996" green="0.35462939739999999" blue="0.28959202769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </slider>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="E71-m9-pf5">
+                                <rect key="frame" x="170" y="423" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crying" translatesAutoresizingMaskIntoConstraints="NO" id="pkK-1g-WGq">
+                                <rect key="frame" x="5" y="423" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="dpP-xS-VM8" firstAttribute="bottom" secondItem="SaP-Lc-rlF" secondAttribute="bottom" id="4MA-ry-6UB"/>
-                            <constraint firstItem="dpP-xS-VM8" firstAttribute="top" secondItem="Uu6-gO-1nN" secondAttribute="top" id="DZv-py-frj"/>
-                            <constraint firstItem="dpP-xS-VM8" firstAttribute="trailing" secondItem="SaP-Lc-rlF" secondAttribute="trailing" id="aAW-LC-63e"/>
-                            <constraint firstItem="dpP-xS-VM8" firstAttribute="leading" secondItem="SaP-Lc-rlF" secondAttribute="leading" id="u2J-dH-iRe"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.85882352939999995" green="0.98823529409999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="SaP-Lc-rlF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="homeTabbarIcon " id="wDt-of-JrI">
-                        <color key="badgeColor" red="0.94509803921568625" green="0.81960784313725488" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                        <color key="badgeColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="moodWeightLabel" destination="98e-hS-VjD" id="yy1-4j-wls"/>
                         <outlet property="moodsLabel" destination="0du-ID-G6B" id="fWf-mL-6wf"/>
                         <outlet property="slider" destination="MLC-Mb-59J" id="bQP-De-8Z6"/>
-                        <outlet property="whyLabel" destination="sDH-DP-1hI" id="qVZ-63-V86"/>
+                        <outlet property="textView" destination="Go7-tk-xyh" id="Iq3-Qa-jj8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="615" y="-678.16901408450701"/>
+            <point key="canvasLocation" x="615" y="-707.74647887323943"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7wN-FJ-kPC">
@@ -794,10 +849,10 @@
                     <tabBar key="tabBar" alpha="0.90000000000000002" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="g8M-Lh-lxu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.0" green="0.62352941179999999" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="tintColor" red="0.0" green="0.62352941176470589" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="barTintColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="0.0" colorSpace="calibratedRGB"/>
-                        <color key="selectedImageTintColor" red="0.94509803920000002" green="0.81960784310000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.14901960784313725" green="0.32941176470588235" blue="0.48627450980392156" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="uAJ-4I-adS" kind="relationship" relationship="viewControllers" id="mBc-T9-Shx"/>
@@ -812,7 +867,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background-11" width="2700" height="4050"/>
         <image name="checked" width="512" height="512"/>
         <image name="circuit" width="512" height="512"/>
         <image name="crying" width="512" height="512"/>
@@ -825,6 +879,6 @@
         <image name="profileTabBar" width="27.5" height="27.5"/>
         <image name="settings" width="512" height="512"/>
         <image name="star" width="512" height="512"/>
-        <image name="testTabBar" width="27.5" height="27.5"/>
+        <image name="success" width="27.5" height="27.5"/>
     </resources>
 </document>
