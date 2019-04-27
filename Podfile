@@ -6,5 +6,6 @@ target 'Smart-Project' do
   use_frameworks!
 
 pod 'MSCircularSlider'
+pod 'Hero'
 
 end

@@ -14,15 +14,11 @@ class HomeVC: UIViewController, UITextViewDelegate {
     @IBOutlet weak var moodWeightLabel: UILabel!
     @IBOutlet weak var slider: MSGradientCircularSlider!
     @IBOutlet public weak var moodsLabel: UILabel!
-    @IBOutlet weak var textView: UITextView!
     
    
     override func viewDidLoad() {
         super.viewDidLoad()
         moodsLabel.text = "عالی ام"
-       // textView.isHidden = true
-        
-        // self.textView.delegate = self
         
         moodsLabel?.layer.masksToBounds = true
         moodsLabel?.layer.cornerRadius = 6
@@ -51,26 +47,8 @@ class HomeVC: UIViewController, UITextViewDelegate {
         } else if sender.currentValue == 0 {
             moodsLabel.text = "عالی ام"
         }
-       
-//        if sender.currentValue > 0 {
-//            textView.isHidden = false
-//        }
-        
-        
-        func numberOfWordsInTextView(textView: UITextView) -> Int {
-            
-            textView.resignFirstResponder()  //if desired
-            let emotionText = textView.text
-            let components = emotionText?.components(separatedBy:.whitespacesAndNewlines)
-            let words = components!.filter { !$0.isEmpty }
-            print(emotionText!)
-            print(words.count)
-            return words.count
-        }
-        
-        let test : Int
-        test = numberOfWordsInTextView(textView: textView)
-        print(test)
+
+     
     }
     
 }
