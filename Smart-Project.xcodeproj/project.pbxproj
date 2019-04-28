@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601FD677227662EF00320788 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FD676227662EF00320788 /* Helper.swift */; };
+		601FD679227663DD00320788 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FD678227663DD00320788 /* UILabelExt.swift */; };
 		60861D7C2267418600D0495A /* B Mitra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60861D7B2267417D00D0495A /* B Mitra.ttf */; };
 		60861D7E22675A1400D0495A /* TabBarExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60861D7D22675A1400D0495A /* TabBarExt.swift */; };
 		60861D8322675F0A00D0495A /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60861D8222675F0A00D0495A /* BorderButton.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		601FD676227662EF00320788 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		601FD678227663DD00320788 /* UILabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
 		60861D7B2267417D00D0495A /* B Mitra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B Mitra.ttf"; sourceTree = "<group>"; };
 		60861D7D22675A1400D0495A /* TabBarExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExt.swift; sourceTree = "<group>"; };
 		60861D8222675F0A00D0495A /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 				60861D7D22675A1400D0495A /* TabBarExt.swift */,
 				60861D8222675F0A00D0495A /* BorderButton.swift */,
 				60CBF4CF226E491500BE0D24 /* TestsCell.swift */,
+				601FD678227663DD00320788 /* UILabelExt.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				60CBF4D9226E50EF00BE0D24 /* DataService.swift */,
+				601FD676227662EF00320788 /* Helper.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601FD677227662EF00320788 /* Helper.swift in Sources */,
 				60AF38172263C3AB00B718E3 /* ProfileVC.swift in Sources */,
 				60AF37FE2263AB3D00B718E3 /* HomeVC.swift in Sources */,
 				60CBF4D7226E4F8200BE0D24 /* Test.swift in Sources */,
@@ -313,6 +320,7 @@
 				60CBF4D0226E491500BE0D24 /* TestsCell.swift in Sources */,
 				60CBF4D3226E4E1400BE0D24 /* TreatmentVC.swift in Sources */,
 				60861D8322675F0A00D0495A /* BorderButton.swift in Sources */,
+				601FD679227663DD00320788 /* UILabelExt.swift in Sources */,
 				60CBF4DA226E50EF00BE0D24 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

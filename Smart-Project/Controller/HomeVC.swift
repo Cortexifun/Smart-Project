@@ -25,6 +25,10 @@ class HomeVC: UIViewController, UITextViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        moodsLabel.text = "حالت چطوره؟"
+        moodsLabel.font = moodsLabel.font.withSize(15)
+        moodsLabel.wiggle()
+        
         let iran = Region(calendar: Calendars.persian, zone: Zones.asiaTehran, locale: Locales.persianIran)
         SwiftDate.defaultRegion = iran
         
@@ -42,6 +46,7 @@ class HomeVC: UIViewController, UITextViewDelegate {
     @IBAction func sliderChanged(_ sender: MSGradientCircularSlider) {
         
         _ = moodTextUpdate(sliderValue: slider.currentValue, weightSliderValue: weightEmotionsSlider.currentValue)
+     
         
         if sender.currentValue == 1{
 
@@ -74,6 +79,7 @@ class HomeVC: UIViewController, UITextViewDelegate {
     @IBAction func weightSliderChanged(_ sender: MSCircularSlider) {
 
      _ = moodTextUpdate(sliderValue: slider.currentValue, weightSliderValue: weightEmotionsSlider.currentValue)
+        
   
     }
     
@@ -83,69 +89,128 @@ class HomeVC: UIViewController, UITextViewDelegate {
         let weightSliderValue = weightEmotionsSlider.currentValue
         switch (sliderValue, weightSliderValue) {
         case (0,0):
+            moodsLabel.font = moodsLabel.font.withSize(20)
             moodsLabel.text = "چطوری؟"
         case (1,0):
             moodsLabel.text = "🙂"
+            moodsLabel.font = moodsLabel.font.withSize(60)
         case (2,0):
             moodsLabel.text = "😌"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (3,0):
             moodsLabel.text = "😯"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (4,0):
             moodsLabel.text = "😒"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (5,0):
             moodsLabel.text = "😕"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (6,0):
             moodsLabel.text = "😏"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (7,0):
             moodsLabel.text = "🤭"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (0,1):
+            moodsLabel.font = moodsLabel.font.withSize(20)
             moodsLabel.text = "چطوری؟"
         case (1,1):
             moodsLabel.text = "😊"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (2,1):
             moodsLabel.text = "☺️"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (3,1):
             moodsLabel.text = "😧"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (4,1):
             moodsLabel.text = "🤨"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (5,1):
             moodsLabel.text = "☹️"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (6,1):
             moodsLabel.text = "😤"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (7,1):
             moodsLabel.text = "😨"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (0,2):
+            moodsLabel.font = moodsLabel.font.withSize(20)
             moodsLabel.text = "چطوری؟"
         case (1,2):
             moodsLabel.text = "😁"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (2,2):
             moodsLabel.text = "😍"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (3,2):
             moodsLabel.text = "😵"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (4,2):
             moodsLabel.text = "😑"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (5,2):
             moodsLabel.text = "😢"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (6,2):
             moodsLabel.text = "🤢"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (7,2):
             moodsLabel.text = "😰"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (0,3):
+            moodsLabel.font = moodsLabel.font.withSize(20)
             moodsLabel.text = "چطوری؟"
         case (1,3):
             moodsLabel.text = "😂"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (2,3):
             moodsLabel.text = "🥰"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (3,3):
             moodsLabel.text = "🤯"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (4,3):
             moodsLabel.text = "😡"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (5,3):
             moodsLabel.text = "😭"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (6,3):
             moodsLabel.text = "🤮"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         case (7,3):
             moodsLabel.text = "😱"
+            moodsLabel.font = moodsLabel.font.withSize(60)
+
         default:
             moodsLabel.text = "●●●"
         }
