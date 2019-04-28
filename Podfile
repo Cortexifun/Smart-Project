@@ -7,5 +7,6 @@ target 'Smart-Project' do
 
 pod 'MSCircularSlider'
 pod 'Hero'
+pod 'SwiftDate', '~> 5.0'
 
 end

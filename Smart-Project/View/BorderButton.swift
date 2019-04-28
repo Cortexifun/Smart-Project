@@ -14,6 +14,6 @@ class BorderButton: UIButton {
         super.awakeFromNib()
         layer.borderWidth = 1
         layer.borderColor = UIColor.black.cgColor
-        layer.cornerRadius = 10
+        layer.cornerRadius = 8
     }
 }

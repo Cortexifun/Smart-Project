@@ -1,20 +1,24 @@
 PODS:
   - Hero (1.4.0)
   - MSCircularSlider (1.2.2)
+  - SwiftDate (5.1.0)
 
 DEPENDENCIES:
   - Hero
   - MSCircularSlider
+  - SwiftDate (~> 5.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Hero
     - MSCircularSlider
+    - SwiftDate
 
 SPEC CHECKSUMS:
   Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
   MSCircularSlider: 70759318a899279d7923aa0f454f3ba0fe448642
+  SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
 
-PODFILE CHECKSUM: 41f011e95200fb90badf4ea59e6354e36af7257d
+PODFILE CHECKSUM: 172170deb4a8bd20e85669f2f3bf5ca607d94556
 
 COCOAPODS: 1.6.0
