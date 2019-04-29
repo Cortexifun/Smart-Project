@@ -20,7 +20,7 @@ class HomeVC: UIViewController, UITextViewDelegate {
     @IBOutlet public weak var moodsLabel: UILabel!
     @IBOutlet weak var todayDate: UILabel!
     @IBOutlet weak var todayTime: UILabel!
-   @IBOutlet public weak var EmotionView: UIView!
+  
 
     
     
@@ -39,17 +39,17 @@ class HomeVC: UIViewController, UITextViewDelegate {
         todayDate.text = iranDateTime.toFormat("yyyy/MM/dd", locale: Locales.persian)
         todayTime.text = iranDateTime.toFormat("hh:mm:ss", locale: Locales.persian)
         
-        
-        moodsLabel?.layer.masksToBounds = true
-        moodsLabel?.layer.cornerRadius = 6
-        
-        EmotionView.hero.id = "skyWalker"
-        
-        
-        
+        weightEmotionsSlider.isEnabled = false
+
     }
     
-   
+
+    @IBAction func unwindFromeEmotionsVC(unwindSegue: UIStoryboardSegue) {
+
+    }
+    
+    
+    
     @IBAction func sliderChanged(_ sender: MSGradientCircularSlider) {
         
         _ = moodTextUpdate(sliderValue: slider.currentValue, weightSliderValue: weightEmotionsSlider.currentValue)
@@ -80,6 +80,15 @@ class HomeVC: UIViewController, UITextViewDelegate {
         } else if sender.currentValue == 0 {
             slider.handleImage = nil
         }
+        
+        if slider.currentValue == 0 {
+            weightEmotionsSlider.isEnabled = false
+            weightEmotionsSlider.filledColor = UIColor.gray
+        } else {
+            weightEmotionsSlider.isEnabled = true
+            weightEmotionsSlider.filledColor = UIColor.red
+        }
+        
 
     }
     
@@ -89,6 +98,7 @@ class HomeVC: UIViewController, UITextViewDelegate {
         
   
     }
+    
     
     func moodTextUpdate(sliderValue: Double,weightSliderValue: Double ) -> String! {
         
@@ -226,7 +236,6 @@ class HomeVC: UIViewController, UITextViewDelegate {
         
     }
     
-   
  
 }
 

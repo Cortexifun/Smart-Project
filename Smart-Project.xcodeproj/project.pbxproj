@@ -19,6 +19,7 @@
 		60AF38062263AB3E00B718E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AF38042263AB3E00B718E3 /* LaunchScreen.storyboard */; };
 		60AF38172263C3AB00B718E3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF38162263C3AB00B718E3 /* ProfileVC.swift */; };
 		60BC45E22276D8B7007AFCE9 /* EmotionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC45E12276D8B7007AFCE9 /* EmotionsVC.swift */; };
+		60BC45E4227704F8007AFCE9 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC45E3227704F8007AFCE9 /* CalendarVC.swift */; };
 		60CBF4D0226E491500BE0D24 /* TestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CBF4CF226E491500BE0D24 /* TestsCell.swift */; };
 		60CBF4D3226E4E1400BE0D24 /* TreatmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CBF4D2226E4E1400BE0D24 /* TreatmentVC.swift */; };
 		60CBF4D5226E4EB100BE0D24 /* TestsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CBF4D4226E4EB100BE0D24 /* TestsVC.swift */; };
@@ -48,6 +49,7 @@
 		60AF38072263AB3E00B718E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60AF38162263C3AB00B718E3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		60BC45E12276D8B7007AFCE9 /* EmotionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionsVC.swift; sourceTree = "<group>"; };
+		60BC45E3227704F8007AFCE9 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		60CBF4CF226E491500BE0D24 /* TestsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsCell.swift; sourceTree = "<group>"; };
 		60CBF4D2226E4E1400BE0D24 /* TreatmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentVC.swift; sourceTree = "<group>"; };
 		60CBF4D4226E4EB100BE0D24 /* TestsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsVC.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				60AF38162263C3AB00B718E3 /* ProfileVC.swift */,
 				60CBF4D2226E4E1400BE0D24 /* TreatmentVC.swift */,
 				60BC45E12276D8B7007AFCE9 /* EmotionsVC.swift */,
+				60BC45E3227704F8007AFCE9 /* CalendarVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				60AF38172263C3AB00B718E3 /* ProfileVC.swift in Sources */,
 				60AF37FE2263AB3D00B718E3 /* HomeVC.swift in Sources */,
 				60CBF4D7226E4F8200BE0D24 /* Test.swift in Sources */,
+				60BC45E4227704F8007AFCE9 /* CalendarVC.swift in Sources */,
 				60AF37FC2263AB3D00B718E3 /* AppDelegate.swift in Sources */,
 				60861D7E22675A1400D0495A /* TabBarExt.swift in Sources */,
 				60CBF4D5226E4EB100BE0D24 /* TestsVC.swift in Sources */,

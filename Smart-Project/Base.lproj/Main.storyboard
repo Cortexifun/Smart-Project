@@ -462,7 +462,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BsT-I9-UN1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="615" y="1292.9577464788733"/>
+            <point key="canvasLocation" x="615" y="1324"/>
         </scene>
         <!--TestsVC-->
         <scene sceneID="byb-au-gLn">
@@ -603,6 +603,47 @@
             </objects>
             <point key="canvasLocation" x="615" y="-23.239436619718312"/>
         </scene>
+        <!--Calendar-->
+        <scene sceneID="9V3-BJ-kKd">
+            <objects>
+                <viewController id="aMS-AO-DEK" userLabel="Calendar" customClass="CalendarVC" customModule="Smart_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3v3-KB-HMT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t6d-cf-3WG">
+                                <rect key="frame" x="40" y="126" width="240" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تقویم" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BC3-Tw-fzz">
+                                <rect key="frame" x="139" y="51" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaN-m5-Hh7">
+                                <rect key="frame" x="38" y="21" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="بازگشت"/>
+                                <connections>
+                                    <segue destination="ODZ-r9-vz6" kind="unwind" unwindAction="unwindFromeEmotionsVCWithUnwindSegue:" id="7xk-B1-gYP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85882352939999995" green="0.98823529409999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="IRp-uZ-fDe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uuF-io-Zoq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ODZ-r9-vz6" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1432.5" y="-600"/>
+        </scene>
         <!--HomeVC-->
         <scene sceneID="9OZ-Km-8VC">
             <objects>
@@ -612,7 +653,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDG-10-O8U" customClass="MSCircularSlider">
-                                <rect key="frame" x="57" y="193" width="200" height="335"/>
+                                <rect key="frame" x="46" y="186" width="223" height="387"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
@@ -626,7 +667,7 @@
                                         <color key="value" red="1" green="0.27058823529999998" blue="0.051771190070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="_lineWidth">
-                                        <integer key="value" value="7"/>
+                                        <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="_markerCount">
                                         <integer key="value" value="4"/>
@@ -652,7 +693,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="_handleRotatable" value="YES"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="_handleImage" value="indicator"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="_handleEnlargementPoints">
-                                        <integer key="value" value="17"/>
+                                        <integer key="value" value="23"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="_secondGradientColor">
                                         <color key="value" red="0.4141438603" green="0.75930929179999995" blue="0.091481548489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -673,28 +714,6 @@
                                 <rect key="frame" x="273" y="27" width="31" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SjT-zY-piT">
-                                <rect key="frame" x="86" y="341" width="149" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBW-ID-qXe" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
-                                        <rect key="frame" x="12" y="10" width="125" height="28"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
-                                        <state key="normal" title="+ اضافه کردن حس جدید ">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="bLs-rg-TQn" kind="show" id="ny5-vo-u9f"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                             <view contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLC-Mb-59J" customClass="MSGradientCircularSlider" customModule="MSCircularSlider">
                                 <rect key="frame" x="35" y="27" width="245" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -774,6 +793,9 @@
                                 <state key="normal" title="تقویم مود" image="calendar">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="aMS-AO-DEK" kind="show" id="m7l-md-ehv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgw-Z5-woj" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
                                 <rect key="frame" x="80" y="473" width="219" height="39"/>
@@ -824,10 +846,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBW-ID-qXe" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
+                                <rect key="frame" x="93" y="359" width="136" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
+                                <state key="normal" title="+ اضافه کردن حس جدید ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bLs-rg-TQn" kind="show" id="tki-SP-Kgx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.85882352939999995" green="0.98823529409999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="SaP-Lc-rlF"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="homeTabbarIcon " id="gGj-cL-ULf">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="FMN-WH-Rdb"/>
                     <connections>
                         <outlet property="moodsLabel" destination="0du-ID-G6B" id="fWf-mL-6wf"/>
@@ -835,19 +872,18 @@
                         <outlet property="todayDate" destination="5ec-pW-3qo" id="kwY-uF-XMS"/>
                         <outlet property="todayTime" destination="xA8-uQ-2dA" id="uhB-Ho-48v"/>
                         <outlet property="weightEmotionsSlider" destination="gDG-10-O8U" id="NTn-PK-ddG"/>
-                        <outlet property="yellowView" destination="SjT-zY-piT" id="oyh-Hv-8Mw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfj-sz-aXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1459" y="-708"/>
+            <point key="canvasLocation" x="615" y="-713.02816901408448"/>
         </scene>
         <!--EmotionsVC-->
         <scene sceneID="tip-s5-Lah">
             <objects>
                 <viewController id="bLs-rg-TQn" userLabel="EmotionsVC" customClass="EmotionsVC" customModule="Smart_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dkf-7d-zd8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="909-qT-jqJ">
@@ -869,29 +905,22 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dIj-8C-3So">
-                                        <rect key="frame" x="86" y="21" width="149" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDK-CT-MWA" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="10" width="125" height="28"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
-                                                <state key="normal" title="+ اضافه کردن حس جدید ">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7J6-PE-poP">
-                                        <rect key="frame" x="21" y="28" width="47" height="30"/>
+                                        <rect key="frame" x="21" y="21" width="47" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="بازگشت"/>
+                                        <connections>
+                                            <segue destination="1lp-3V-rHS" kind="unwind" unwindAction="unwindFromeEmotionsVCWithUnwindSegue:" id="m75-o9-KyQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDK-CT-MWA" customClass="BorderButton" customModule="Smart_Project" customModuleProvider="target">
+                                        <rect key="frame" x="94" y="28" width="133" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="12"/>
+                                        <state key="normal" title="+ اضافه کردن حس جدید ">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.85882352939999995" green="0.98823529409999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -905,12 +934,12 @@
                     </navigationItem>
                     <connections>
                         <outlet property="whiteView" destination="WFL-3p-SBn" id="FGd-Vt-Dwd"/>
-                        <outlet property="yellowView" destination="909-qT-jqJ" id="cYQ-6q-uMm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZPH-39-xbT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="1lp-3V-rHS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2314" y="-709"/>
+            <point key="canvasLocation" x="1436" y="-1265"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7wN-FJ-kPC">
@@ -925,7 +954,7 @@
                         <color key="selectedImageTintColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="mBi-00-lpM" kind="relationship" relationship="viewControllers" id="mBc-T9-Shx"/>
+                        <segue destination="uAJ-4I-adS" kind="relationship" relationship="viewControllers" id="x8v-Lh-4r8"/>
                         <segue destination="GVQ-mM-Iuq" kind="relationship" relationship="viewControllers" id="kgz-if-VUF"/>
                         <segue destination="uXW-mP-7C7" kind="relationship" relationship="viewControllers" id="FtP-hB-YRF"/>
                         <segue destination="lYz-TF-wdv" kind="relationship" relationship="viewControllers" id="YfQ-od-WOF"/>
@@ -934,31 +963,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPY-Ic-Ux2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-409" y="-295"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="KF4-9s-hgw">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="mBi-00-lpM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="homeTabbarIcon " id="wDt-of-JrI">
-                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
-                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
-                        <color key="badgeColor" red="1" green="0.76862745099999996" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBarItem>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5gy-od-bNU">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="drL-qx-igd">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
-                    <connections>
-                        <segue destination="uAJ-4I-adS" kind="relationship" relationship="rootViewController" id="kDa-zx-M34"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w3o-rd-BLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="615" y="-707.74647887323943"/>
         </scene>
     </scenes>
     <resources>
