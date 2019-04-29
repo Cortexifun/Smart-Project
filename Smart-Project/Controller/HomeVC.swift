@@ -9,6 +9,7 @@
 import UIKit
 import MSCircularSlider
 import SwiftDate
+import Hero
 
 class HomeVC: UIViewController, UITextViewDelegate {
     
@@ -19,9 +20,10 @@ class HomeVC: UIViewController, UITextViewDelegate {
     @IBOutlet public weak var moodsLabel: UILabel!
     @IBOutlet weak var todayDate: UILabel!
     @IBOutlet weak var todayTime: UILabel!
+   @IBOutlet public weak var EmotionView: UIView!
+
     
     
-   
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,8 +43,13 @@ class HomeVC: UIViewController, UITextViewDelegate {
         moodsLabel?.layer.masksToBounds = true
         moodsLabel?.layer.cornerRadius = 6
         
+        EmotionView.hero.id = "skyWalker"
+        
+        
+        
     }
     
+   
     @IBAction func sliderChanged(_ sender: MSGradientCircularSlider) {
         
         _ = moodTextUpdate(sliderValue: slider.currentValue, weightSliderValue: weightEmotionsSlider.currentValue)
@@ -218,6 +225,8 @@ class HomeVC: UIViewController, UITextViewDelegate {
         return moodsLabel.text
         
     }
+    
+   
  
 }
 
