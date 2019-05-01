@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60194FCE2278DD3F001388B9 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60194FCD2278DD3F001388B9 /* DateCell.swift */; };
+		60194FD02278E188001388B9 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60194FCF2278E188001388B9 /* Calendar.swift */; };
 		601FD677227662EF00320788 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FD676227662EF00320788 /* Helper.swift */; };
 		601FD679227663DD00320788 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FD678227663DD00320788 /* UILabelExt.swift */; };
 		60861D7C2267418600D0495A /* B Mitra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60861D7B2267417D00D0495A /* B Mitra.ttf */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60194FCD2278DD3F001388B9 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		60194FCF2278E188001388B9 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		601FD676227662EF00320788 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		601FD678227663DD00320788 /* UILabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
 		60861D7B2267417D00D0495A /* B Mitra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B Mitra.ttf"; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 				60861D8222675F0A00D0495A /* BorderButton.swift */,
 				60CBF4CF226E491500BE0D24 /* TestsCell.swift */,
 				601FD678227663DD00320788 /* UILabelExt.swift */,
+				60194FCD2278DD3F001388B9 /* DateCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				60CBF4D6226E4F8200BE0D24 /* Test.swift */,
+				60194FCF2278E188001388B9 /* Calendar.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -317,7 +323,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				601FD677227662EF00320788 /* Helper.swift in Sources */,
+				60194FCE2278DD3F001388B9 /* DateCell.swift in Sources */,
 				60AF38172263C3AB00B718E3 /* ProfileVC.swift in Sources */,
+				60194FD02278E188001388B9 /* Calendar.swift in Sources */,
 				60AF37FE2263AB3D00B718E3 /* HomeVC.swift in Sources */,
 				60CBF4D7226E4F8200BE0D24 /* Test.swift in Sources */,
 				60BC45E4227704F8007AFCE9 /* CalendarVC.swift in Sources */,
