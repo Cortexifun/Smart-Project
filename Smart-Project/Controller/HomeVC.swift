@@ -21,8 +21,6 @@ class HomeVC: UIViewController, UITextViewDelegate {
     @IBOutlet weak var todayDate: UILabel!
     @IBOutlet weak var todayTime: UILabel!
   
-
-    // this is a test 
     
     override func viewDidLoad() {
         super.viewDidLoad()
